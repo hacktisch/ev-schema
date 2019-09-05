@@ -1,12 +1,9 @@
-
 module.exports = [
     {
         tab: "main",
         source: "title",
-        type: "text",
-        props: {
-            /////////validate: required
-        }
+        type: "text"
+        /////////validate: required
     },
 
     {
@@ -18,17 +15,16 @@ module.exports = [
             resource: "path",
             optionText: "path",
             inputType: "autocomplete"
-        },
-        props: {
-          ///////////  validate: required
         }
+
+        ///////////  validate: required
     },
-       {
+    {
         tab: "main",
         source: "published",
         type: "boolean",
-        props:{
-            defaultValue:true
+        props: {
+            defaultValue: true
         }
     },
     {
@@ -51,10 +47,8 @@ module.exports = [
         tab: "media",
         label: "Main image",
         source: "mainImage",
-        type: "image",
-        props: {
-         //////////   validate: required
-        }
+        type: "image"
+        /////////validate: required
     },
     {
         tab: "media",
@@ -132,9 +126,7 @@ module.exports = [
         tab: "catalog",
         source: "category",
         type: "reference",
-        props: {
-          /////////  validate: required
-        },
+        /////////validate: required
         label: "Category",
         root: "main",
         reference: {
@@ -181,4 +173,4 @@ module.exports = [
         label: "Description meta tag",
         type: "longtext"
     }
-]
+];

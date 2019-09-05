@@ -1,22 +1,20 @@
-const {menus} = require("./structure");
+const { menus } = require("./structure");
 
-module.exports=[
+module.exports = [
     {
         source: "root",
         type: "select",
         label: "Tree",
         choices: menus,
-        props: {
-            validate: ['required']
-        }
+
+        validate: ["required"]
     },
     {
         source: "text",
         type: "text",
         label: "Shown text",
-        props: {
-            validate: ['required']
-        }
+
+        validate: ["required"]
     },
     {
         source: "path_id",
@@ -27,9 +25,8 @@ module.exports=[
             optionText: "path",
             inputType: "autocomplete"
         },
-        props: {
-            validate: ['required']
-        }
+
+        validate: ["required"]
     },
     {
         source: "parent",
@@ -46,8 +43,8 @@ module.exports=[
     {
         source: "weight",
         type: "number",
+        validate: ["required"],
         props: {
-            validate: ['required'],
             defaultValue: 0
         }
     },
@@ -55,4 +52,4 @@ module.exports=[
         source: "image",
         type: "image"
     }
-]
+];
