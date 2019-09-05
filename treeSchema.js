@@ -23,7 +23,8 @@ module.exports = [
         reference: {
             resource: "path",
             optionText: "path",
-            inputType: "autocomplete"
+            inputType: "autocomplete",
+            quickCreate:true
         },
 
         validate: ["required"]
