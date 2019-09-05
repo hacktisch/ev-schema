@@ -1,4 +1,6 @@
 
 module.exports = {
-	product:require("./productSchema.js")
+	path:require("./pathSchema.js"),
+	tree:require("./treeSchema.js"),
+	product:require("./productSchema.js"),
 }
