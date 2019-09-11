@@ -62,7 +62,8 @@ module.exports = [
     {
         tab: "catalog",
         source: "price",
-        type: "number"
+        type: "number",
+        render:"price"
     },
     {
         tab: "catalog",
@@ -178,5 +179,11 @@ module.exports = [
                 type: "longtext"
             }
         ]
+    },
+    {
+        tab: "meta",
+        source: "created",
+        label: "Creation date",
+        type: "datetime"
     }
 ];
