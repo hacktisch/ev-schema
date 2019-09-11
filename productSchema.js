@@ -15,7 +15,7 @@ module.exports = [
             resource: "path",
             optionText: "path",
             inputType: "autocomplete",
-            quickCreate:true
+            quickCreate: true
         }
 
         ///////////  validate: required
@@ -46,6 +46,26 @@ module.exports = [
     },
     {
         tab: "media",
+        source: "mainImage",
+         label: "Main image",
+        type: "array",
+        min: 1,
+        max: 1,
+        sub: [
+            {
+                source: "image",
+                label: "Image",
+                type: "image"
+            },
+            {
+            label: "Image alt attribute (SEO)",
+        source: "mainImage.alt",
+        type: "text"
+            }
+        ]
+    },
+   /* {
+        tab: "media",
         label: "Main image",
         source: "mainImage",
         type: "image"
@@ -56,7 +76,7 @@ module.exports = [
         label: "Image alt attribute (SEO)",
         source: "mainImage.alt",
         type: "text"
-    },
+    },*/
     {
         tab: "media",
         source: "slides",
@@ -162,28 +182,26 @@ module.exports = [
  /*{
         source:"related",
         refs
-    },*/ 
+    },*/
 
-
-{
+    {
         tab: "meta",
         source: "meta",
         label: "Meta tags",
         type: "array",
-        min:1,
-        max:1,
+        min: 1,
+        max: 1,
         sub: [
             {
                 source: "title",
-                 label: "Title meta tag",
+                label: "Title meta tag",
                 type: "longtext"
             },
             {
                 source: "description",
-               label: "Description meta tag",
-        type: "longtext"
+                label: "Description meta tag",
+                type: "longtext"
             }
         ]
-    },
-    
+    }
 ];
