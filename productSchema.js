@@ -44,39 +44,14 @@ module.exports = [
         type: "richtext",
         label: "Long description"
     },
+
     {
-        tab: "media",
-        source: "mainImage",
-         label: "Main image",
-        type: "array",
-        min: 1,
-        max: 1,
-        sub: [
-            {
-                source: "image",
-                label: "Image",
-                type: "image"
-            },
-            {
-            label: "Image alt attribute (SEO)",
-        source: "mainImage.alt",
-        type: "text"
-            }
-        ]
-    },
-   /* {
         tab: "media",
         label: "Main image",
         source: "mainImage",
         type: "image"
         /////////validate: required
     },
-    {
-        tab: "media",
-        label: "Image alt attribute (SEO)",
-        source: "mainImage.alt",
-        type: "text"
-    },*/
     {
         tab: "media",
         source: "slides",
