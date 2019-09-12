@@ -124,6 +124,7 @@ module.exports = [
         tab: "catalog",
         source: "category",
         type: "reference",
+         multiple:"true",
         /////////validate: required
         label: "Category",
         root: "main",
@@ -131,11 +132,16 @@ module.exports = [
             resource: "tree",
             optionText: "text"
         }
+
+
+
+
     },
     {
         tab: "catalog",
         source: "occasion",
         type: "reference",
+         multiple:"true",
         label: "Occasion",
         root: "occasion",
         reference: {
@@ -147,6 +153,7 @@ module.exports = [
         tab: "catalog",
         source: "genre",
         type: "reference",
+         multiple:"true",
         label: "Genre",
         root: "genre",
         reference: {
