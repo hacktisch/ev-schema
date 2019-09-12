@@ -8,9 +8,10 @@ module.exports = [
 
     {
         tab: "main",
-        source: "path.id",
+        source: "path",
         type: "reference",
         label: "Path",
+        multiple:"true",
         reference: {
             resource: "path",
             optionText: "path",
