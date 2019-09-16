@@ -128,6 +128,7 @@ module.exports = [
         /////////validate: required
         label: "Category",
         root: "main",
+        filter:{root:"main"},
         reference: {
             resource: "tree",
             optionText: "text"
@@ -144,6 +145,7 @@ module.exports = [
          multiple:"true",
         label: "Occasion",
         root: "occasion",
+        filter:{root:"occasion"},
         reference: {
             resource: "tree",
             optionText: "text"
@@ -156,6 +158,7 @@ module.exports = [
          multiple:"true",
         label: "Genre",
         root: "genre",
+        filter:{root:"genre"},
         reference: {
             resource: "tree",
             optionText: "text"
