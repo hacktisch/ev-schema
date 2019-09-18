@@ -66,8 +66,6 @@ module.exports = [
             }
         ]
     },
-
-    { tab: "media", source: "headerImg", label: "Banner image", type: "image" },
     {
         tab: "media",
         source: "banner",
@@ -85,6 +83,12 @@ module.exports = [
                 source: "desc",
                 label: "Description",
                 type: "longtext"
+            },
+            {
+                source: "backgrounds",
+                label: "Backgrounds",
+                type: "array",
+                sub: [{ source: "image", label: "Image", type: "image" }]
             }
         ]
     },
