@@ -26,10 +26,7 @@ require("./groups/published.js"),
         label: "Main image",
         source: "mainImage",
         type: "image",
-        accept:[
-            "image/jpeg",
-            "image/webp"
-        ],
+                             accept: {"image/jpeg":true, "image/webp":"jpg","image/png":"jpg"},
         transforms:{
             _original:{
                 width:200,

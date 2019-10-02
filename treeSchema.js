@@ -50,10 +50,15 @@ module.exports = [
         }
     },
     {
-        label:"Icon",
+        label: "Icon",
         source: "image",
         type: "image",
-        accept: ["image/svg+xml", "image/png", "image/webp"],
+        accept: {
+            "image/svg+xml": true,
+            "image/jpeg": true,
+            "image/webp": "jpg",
+            "image/png": "jpg"
+        },
         transforms: {
             _original: {
                 width: 100,

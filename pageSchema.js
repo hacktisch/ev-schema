@@ -17,7 +17,7 @@ module.exports = [
                 source: "image",
                 label: "Image",
                 type: "image",
-                accept: ["image/jpeg", "image/webp"],
+                accept: {"image/jpeg":true, "image/webp":"jpg","image/png":"jpg"},
                 transforms: {
                     _original: {
                         width: 1,
@@ -100,7 +100,7 @@ module.exports = [
                         source: "image",
                         label: "Image",
                         type: "image",
-                        accept: ["image/jpeg", "image/webp"],
+                        accept: {"image/jpeg":true, "image/webp":"jpg","image/png":"jpg"},
                         transforms: {
                             _original: {
                                 width: 1,
