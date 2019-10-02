@@ -16,7 +16,14 @@ module.exports = [
             {
                 source: "image",
                 label: "Image",
-                type: "image"
+                type: "image",
+                accept: ["image/jpeg", "image/webp"],
+                transforms: {
+                    _original: {
+                        width: 1,
+                        height: 50
+                    }
+                }
             },
             {
                 source: "title",
@@ -88,7 +95,20 @@ module.exports = [
                 source: "backgrounds",
                 label: "Backgrounds",
                 type: "array",
-                sub: [{ source: "image", label: "Image", type: "image" }]
+                sub: [
+                    {
+                        source: "image",
+                        label: "Image",
+                        type: "image",
+                        accept: ["image/jpeg", "image/webp"],
+                        transforms: {
+                            _original: {
+                                width: 1,
+                                height: 1
+                            }
+                        }
+                    }
+                ]
             }
         ]
     },
@@ -98,7 +118,7 @@ module.exports = [
         source: "addCategory",
         type: "reference",
         /////////validate: required
-        label: "Category",
+        label: "Product category",
         root: "main",
         filter: { root: "main" },
         reference: {

@@ -25,13 +25,29 @@ require("./groups/published.js"),
         tab: "media",
         label: "Main image",
         source: "mainImage",
-        type: "image"
+        type: "image",
+        accept:[
+            "image/jpeg",
+            "image/webp"
+        ],
+        transforms:{
+            _original:{
+                width:200,
+                height:300
+            }
+        }
         /////////validate: required
     },
     {
         tab: "media",
         source: "slides",
-        type: "mediaplayer"
+        type: "mediaplayer",
+                transforms:{
+            _original:{
+                width:500,
+                height:100
+            }
+        }
         //slide imgs alt?...
     },
 

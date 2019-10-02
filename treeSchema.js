@@ -24,7 +24,7 @@ module.exports = [
             resource: "path",
             optionText: "path",
             inputType: "autocomplete",
-            quickCreate:true
+            quickCreate: true
         },
 
         validate: ["required"]
@@ -51,6 +51,13 @@ module.exports = [
     },
     {
         source: "image",
-        type: "image"
+        type: "image",
+        accept: ["image/svg", "image/png", "image/webp"],
+        transforms: {
+            _original: {
+                width: 100,
+                height: 100
+            }
+        }
     }
 ];
