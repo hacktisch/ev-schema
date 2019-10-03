@@ -1,9 +1,7 @@
 module.exports = [
-
-
-require("./groups/title.js"),
-require("./groups/pathReference.js"),
-require("./groups/published.js"),
+    require("./groups/title.js"),
+    require("./groups/pathReference.js"),
+    require("./groups/published.js"),
     {
         tab: "details",
         source: "lead",
@@ -20,17 +18,16 @@ require("./groups/published.js"),
         type: "richtext",
         label: "Long description"
     },
-
     {
         tab: "media",
         label: "Main image",
         source: "mainImage",
         type: "image",
-                             accept: {"image/jpeg":true, "image/webp":"jpg","image/png":"jpg"},
-        transforms:{
-            _original:{
-                width:200,
-                height:300
+        accept: { "image/jpeg": true, "image/webp": "jpg", "image/png": "jpg" },
+        transforms: {
+            _original: {
+                width: 700,
+                height: 470
             }
         }
         /////////validate: required
@@ -39,10 +36,10 @@ require("./groups/published.js"),
         tab: "media",
         source: "slides",
         type: "mediaplayer",
-                transforms:{
-            _original:{
-                width:500,
-                height:100
+        transforms: {
+            _original: {
+                width: 700,
+                height: 470
             }
         }
         //slide imgs alt?...
@@ -52,7 +49,7 @@ require("./groups/published.js"),
         tab: "catalog",
         source: "price",
         type: "number",
-        render:"price"
+        render: "price"
     },
     {
         tab: "catalog",
@@ -112,28 +109,24 @@ require("./groups/published.js"),
         tab: "catalog",
         source: "category",
         type: "reference",
-         multiple:"true",
+        multiple: "true",
         /////////validate: required
         label: "Category",
         root: "main",
-        filter:{root:"main"},
+        filter: { root: "main" },
         reference: {
             resource: "tree",
             optionText: "text"
         }
-
-
-
-
     },
     {
         tab: "catalog",
         source: "occasion",
         type: "reference",
-         multiple:"true",
+        multiple: "true",
         label: "Occasion",
         root: "occasion",
-        filter:{root:"occasion"},
+        filter: { root: "occasion" },
         reference: {
             resource: "tree",
             optionText: "text"
@@ -143,10 +136,10 @@ require("./groups/published.js"),
         tab: "catalog",
         source: "genre",
         type: "reference",
-         multiple:"true",
+        multiple: "true",
         label: "Genre",
         root: "genre",
-        filter:{root:"genre"},
+        filter: { root: "genre" },
         reference: {
             resource: "tree",
             optionText: "text"
@@ -161,5 +154,4 @@ require("./groups/published.js"),
 
     require("./groups/metaTags.js"),
     require("./groups/changed.js")
-    
 ];

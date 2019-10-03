@@ -56,13 +56,13 @@ module.exports = [
         accept: {
             "image/svg+xml": true,
             "image/jpeg": true,
-            "image/webp": "jpg",
-            "image/png": "jpg"
+            "image/webp": "png",
+            "image/png": true
         },
         transforms: {
             _original: {
-                width: 100,
-                height: 100
+                width: 80,
+                height: 80
             }
         }
     }

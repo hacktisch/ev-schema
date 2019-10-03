@@ -20,8 +20,8 @@ module.exports = [
                 accept: {"image/jpeg":true, "image/webp":"jpg","image/png":"jpg"},
                 transforms: {
                     _original: {
-                        width: 1,
-                        height: 50
+                        width: 450,
+                        height: 300
                     }
                 }
             },
@@ -103,8 +103,8 @@ module.exports = [
                         accept: {"image/jpeg":true, "image/webp":"jpg","image/png":"jpg"},
                         transforms: {
                             _original: {
-                                width: 1,
-                                height: 1
+                                width: 1920,
+                                height: 1080
                             }
                         }
                     }
