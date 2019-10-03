@@ -34,7 +34,7 @@ module.exports = [
     },
     {
         tab: "media",
-        source: "slides",
+        source: "slides_old",
         type: "mediaplayer",
         transforms: {
             _original: {
@@ -42,7 +42,36 @@ module.exports = [
                 height: 470
             }
         }
-        //slide imgs alt?...
+    },
+
+    {
+        tab: "media",
+        source: "slides",
+        type: "array",
+        mode: "mediaplayer",
+        sub: [
+            {
+                source: "image",
+                label: "Image",
+                type: "image",
+                accept: {
+                    "image/jpeg": true,
+                    "image/webp": "jpg",
+                    "image/png": "jpg"
+                },
+                transforms: {
+                    _original: {
+                        width: 700,
+                        height: 470
+                    }
+                }
+            },
+            {
+                source: "url",
+                label: "Youtube URL",
+                type: "text"
+            }
+        ]
     },
 
     {
