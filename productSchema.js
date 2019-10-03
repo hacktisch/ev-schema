@@ -51,6 +51,13 @@ module.exports = [
         mode: "mediaplayer",
         sub: [
             {
+                when: ["!image"],
+                source: "url",
+                label: "Youtube URL",
+                type: "text"
+            },
+            {
+                when: ["!url"],
                 source: "image",
                 label: "Image",
                 type: "image",
@@ -65,11 +72,6 @@ module.exports = [
                         height: 470
                     }
                 }
-            },
-            {
-                source: "url",
-                label: "Youtube URL",
-                type: "text"
             }
         ]
     },
