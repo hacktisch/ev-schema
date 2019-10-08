@@ -4,5 +4,6 @@ module.exports = {
 	tree:require("./treeSchema.js"),
 	product:require("./productSchema.js"),
 	page:require("./pageSchema.js"),
+	settings:require("./settingsSchema.js"),
 	structure:require("./structure.js"),
 }
