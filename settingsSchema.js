@@ -9,7 +9,7 @@ const localeKeys = [
 
 const localeFields = localeKeys.map(key => ({
     tab: "locale",
-    source: "locale." + key,
+    source: "locale:" + key,
     type: "longtext",
     label: key
 }));
@@ -89,13 +89,13 @@ module.exports = [
     },
     {
         tab: "settings",
-        source: "constants.currency",
+        source: "constants:currency",
         label: "Currency code",
         type: "text"
     },
         {
         tab: "settings",
-        source: "constants.goto",
+        source: "constants:goto",
         label: "Order completed path",
         type: "text",
         props:{
@@ -105,19 +105,19 @@ module.exports = [
     },
         {
         tab: "settings",
-        source: "constants.rangeMin",
+        source: "constants:rangeMin",
         label: "Minimum in price range filter",
         type: "number"
     },
             {
         tab: "settings",
-        source: "constants.rangeMax",
+        source: "constants:rangeMax",
         label: "Maximum in price range filter",
         type: "number"
     },
         {
         tab: "settings",
-        source: "constants.searchPath",
+        source: "constants:searchPath",
         label: "Search path prefix",
         type: "text",
         props:{
