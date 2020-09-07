@@ -87,6 +87,12 @@ module.exports = [
             }
         ]
     },
+     {
+        tab: "settings",
+        source: "constants:phone",
+        label: "Phone number",
+        type: "text"
+    },
     {
         tab: "settings",
         source: "constants:currency",
