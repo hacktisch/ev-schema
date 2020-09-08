@@ -129,6 +129,7 @@ module.exports = [
     },
     ...localeFields,
      {
+        tab:"mail",
                 label: "Titleeeeee",
                 source: "mail:custredwerdeomer_order_title",
                 type: "text"
