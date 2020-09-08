@@ -33,10 +33,7 @@ module.exports = [
                 ].map(name => ({
                     id: name.toLowerCase(),
                     name,
-                    icon: "/icons/social-" +
-                                    name.toLowerCase() +
-                                    ".svg"
-                    
+                    icon: "/icons/social-" + name.toLowerCase() + ".svg"
                 }))
             },
             {
@@ -87,7 +84,7 @@ module.exports = [
             }
         ]
     },
-     {
+    {
         tab: "settings",
         source: "constants:phone",
         label: "Phone number",
@@ -99,36 +96,48 @@ module.exports = [
         label: "Currency code",
         type: "text"
     },
-        {
+    {
         tab: "settings",
         source: "constants:goto",
         label: "Order completed path",
         type: "text",
-        props:{
-            disabled:true,
-            placeholder:"/checkout/thank-you"
+        props: {
+            disabled: true,
+            placeholder: "/checkout/thank-you"
         }
     },
-        {
+    {
         tab: "settings",
         source: "constants:rangeMin",
         label: "Minimum in price range filter",
         type: "number"
     },
-            {
+    {
         tab: "settings",
         source: "constants:rangeMax",
         label: "Maximum in price range filter",
         type: "number"
     },
-        {
+    {
         tab: "settings",
         source: "constants:searchPath",
         label: "Search path prefix",
         type: "text",
-        props:{
-            placeholder:"/search"
+        props: {
+            placeholder: "/search"
         }
     },
-    ...localeFields
+    ...localeFields,
+
+    {
+        tab: "mail",
+        source: "mail:customer_order_title",
+        type: "text",
+        label: "Order confirmation to customer"
+    },
+    {
+        tab: "mail",
+        source: "mail:customer_order_body",
+        type: "richtext"
+    }
 ];
