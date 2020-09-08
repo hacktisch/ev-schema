@@ -128,6 +128,11 @@ module.exports = [
         }
     },
     ...localeFields,
+     {
+                label: "Titleeeeee",
+                source: "mail:custredwerdeomer_order_title",
+                type: "text"
+            },
     {
         tab: "mail",
         label: "Request confirmation to customer",
