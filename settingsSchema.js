@@ -133,17 +133,18 @@ module.exports = [
         tab: "mail",
         label: "Request confirmation to customer",
         type: "array",
+        source: "mail:customer_order",
         min: 1,
         max: 1,
         sub: [
             {
                 label: "Title",
-                source: "mail:customer_order_title",
+                source: "title",
                 type: "text"
             },
             {
                 label: "Message",
-                source: "mail:customer_order_body",
+                source: "body",
                 type: "richtext"
             }
         ]
