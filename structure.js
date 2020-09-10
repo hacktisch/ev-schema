@@ -1,6 +1,6 @@
 module.exports = {
 	menus: [
-		{ id: "main", name: "Main menu" },
+		{ id: "category", name: "Category" },
 		{ id: "footer", name: "Footer menu" },
 		{ id: "contact", name: "Contact menu" },
 		{ id: "occasion", name: "Occasions" },
