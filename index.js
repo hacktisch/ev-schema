@@ -1,5 +1,6 @@
 
 module.exports = {
+	article:require("./articleSchema.js"),
 	path:require("./pathSchema.js"),
 	tree:require("./treeSchema.js"),
 	product:require("./productSchema.js"),
