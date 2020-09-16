@@ -1,6 +1,11 @@
 module.exports = [
 	{ tab: "banner", source: "banner_title", label: "Title", type: "text" },
-	{ tab: "banner", source: "banner_desc", label: "Description", type: "longtext" },
+	{
+		tab: "banner",
+		source: "banner_desc",
+		label: "Description",
+		type: "longtext"
+	},
 	{
 		tab: "banner",
 		source: "backgrounds",
@@ -25,7 +30,6 @@ module.exports = [
 			}
 		]
 	},
-
 
 	{
 		tab: "order_process",
@@ -64,6 +68,11 @@ module.exports = [
 				type: "richtext"
 			}
 		]
+	},
+	{
+		tab: "order_process",
+		type: "text",
+		label: "Order button text"
 	},
 	{
 		tab: "product_selection",

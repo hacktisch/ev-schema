@@ -50,8 +50,6 @@ module.exports = [
         label: "Contact info block"
     },
 
-
-
     {
         tab: "general",
         source: "usp_quality",
@@ -76,7 +74,6 @@ module.exports = [
         label: "Usp: experience",
         type: "text"
     },
-
 
     {
         tab: "general",
