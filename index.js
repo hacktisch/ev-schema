@@ -4,7 +4,7 @@ module.exports = {
 	tree: require("./treeSchema.js"),
 	product: require("./productSchema.js"),
 	page: require("./pageSchema.js"),
-	settings: require("./settingsSchema.js"),
+	globals: require("./globalSettingsSchema.js"),
 	structure: require("./structure.js"),
 
 	front: require("./pages/front.js"),
