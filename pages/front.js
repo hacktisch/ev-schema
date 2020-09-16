@@ -76,6 +76,16 @@ module.exports = [
 						height: 300
 					}
 				}
+			},
+			{
+				source: "title",
+				label: "Title",
+				type: "text"
+			},
+			{
+				source: "description",
+				label: "Description",
+				type: "richtext"
 			}
 		]
 	},
