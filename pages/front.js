@@ -1,6 +1,6 @@
 module.exports = [
-	{ tab: "banner", source: "title", label: "Title", type: "text" },
-	{ tab: "banner", source: "desc", label: "Description", type: "longtext" },
+	{ tab: "banner", source: "banner_title", label: "Title", type: "text" },
+	{ tab: "banner", source: "banner_desc", label: "Description", type: "longtext" },
 	{
 		tab: "banner",
 		source: "backgrounds",
