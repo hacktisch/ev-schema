@@ -9,5 +9,5 @@ module.exports = {
 
 	front: require("./pages/front.js"),
 	contact: require("./pages/contact.js"),
-	quote_requested: require("./pages/request.js")
+	request: require("./pages/request.js")
 };
