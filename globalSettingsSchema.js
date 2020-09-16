@@ -49,6 +49,35 @@ module.exports = [
         type: "richtext",
         label: "Contact info block"
     },
+
+
+
+    {
+        tab: "general",
+        source: "usp_quality",
+        label: "Usp: quality",
+        type: "text"
+    },
+    {
+        tab: "general",
+        source: "usp_service",
+        label: "Usp: service",
+        type: "text"
+    },
+    {
+        tab: "general",
+        source: "usp_guarantee",
+        label: "Usp: guarantee",
+        type: "text"
+    },
+    {
+        tab: "general",
+        source: "usp_experience",
+        label: "Usp: experience",
+        type: "text"
+    },
+
+
     {
         tab: "general",
         source: "usps",

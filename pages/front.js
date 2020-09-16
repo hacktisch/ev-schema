@@ -26,30 +26,6 @@ module.exports = [
 		]
 	},
 
-	{
-		tab: "banner",
-		source: "usp_quality",
-		label: "Usp: quality",
-		type: "text"
-	},
-	{
-		tab: "banner",
-		source: "usp_service",
-		label: "Usp: service",
-		type: "text"
-	},
-	{
-		tab: "banner",
-		source: "usp_guarantee",
-		label: "Usp: guarantee",
-		type: "text"
-	},
-	{
-		tab: "banner",
-		source: "usp_experience",
-		label: "Usp: experience",
-		type: "text"
-	},
 
 	{
 		tab: "order_process",
