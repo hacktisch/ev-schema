@@ -112,7 +112,15 @@ module.exports = [
             }
         ]
     },
-
+{
+        tab: "catalog",
+        source: "showCatalog",
+        type: "boolean",
+        label:"Show product list and filters",
+        props: {
+            defaultValue: true
+        }
+    },
     {
         tab: "catalog",
         source: "addCategory",
