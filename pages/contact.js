@@ -19,6 +19,7 @@ module.exports = [
 			}
 		}
 	},
+	{ type: "richtext", source: "body", label: "Body text" },
 	{ type: "richtext", source: "contact_info", label: "Contact info" },
 	{ type: "richtext", source: "address", label: "Address info" },
 	{

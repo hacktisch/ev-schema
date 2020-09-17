@@ -71,7 +71,7 @@ module.exports = [
 	},
 	{
 		tab: "order_process",
-		source:"process_button",
+		source: "process_button",
 		type: "text",
 		label: "Order button text"
 	},
