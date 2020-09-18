@@ -23,11 +23,6 @@ const localeFieldsSet=[
     "placeholder": "Would you like to book entertainment, but are not sure whether your party date can continue? You can always postpone your booking with us for free if your party cannot go through due to government measures.<br/><br/>We offer this plan completely free of charge!"
   },
   {
-    "source": "CONTACT_KEY",
-    "label": "CONTACT_KEY",
-    "placeholder": "contact"
-  },
-  {
     "source": "RECEIVE_PROPOSAL",
     "label": "RECEIVE_PROPOSAL",
     "placeholder": "Receive proposal"
@@ -467,6 +462,12 @@ module.exports = [
         source: "phone_info",
         type: "richtext",
         label: "Contact info block"
+    },
+        {
+        tab: "general",
+        source: "footer_links",
+        type: "richtext",
+        label: "Extra links in footer"
     },
 
     {
