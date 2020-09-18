@@ -32,17 +32,7 @@ module.exports = [
         }
         /////////validate: required
     },
-    {
-        tab: "media",
-        source: "slides_old",
-        type: "mediaplayer",
-        transforms: {
-            _original: {
-                width: 700,
-                height: 470
-            }
-        }
-    },
+  
 
     {
         tab: "media",

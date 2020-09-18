@@ -17,7 +17,11 @@ module.exports = [
                 source: "image",
                 label: "Image",
                 type: "image",
-                accept: {"image/jpeg":true, "image/webp":"jpg","image/png":"jpg"},
+                accept: {
+                    "image/jpeg": true,
+                    "image/webp": "jpg",
+                    "image/png": "jpg"
+                },
                 transforms: {
                     _original: {
                         width: 450,
@@ -100,7 +104,11 @@ module.exports = [
                         source: "image",
                         label: "Image",
                         type: "image",
-                        accept: {"image/jpeg":true, "image/webp":"jpg","image/png":"jpg"},
+                        accept: {
+                            "image/jpeg": true,
+                            "image/webp": "jpg",
+                            "image/png": "jpg"
+                        },
                         transforms: {
                             _original: {
                                 width: 1920,
@@ -112,11 +120,11 @@ module.exports = [
             }
         ]
     },
-{
+    {
         tab: "catalog",
         source: "showCatalog",
         type: "boolean",
-        label:"Show product list and filters",
+        label: "Show product list and filters",
         props: {
             defaultValue: true
         }
