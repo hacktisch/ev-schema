@@ -3,7 +3,7 @@ module.exports = [
     {
         label: "Top text",
         source: "top_text",
-        type: "richtext"
+        type: "markdown"
     },
 
     {
@@ -15,13 +15,13 @@ module.exports = [
             {
                 source: "description",
                 label: "Description",
-                type: "richtext"
+                type: "markdown"
             }
         ]
     },
         {
         label: "Bottom text",
         source: "bottom_text",
-        type: "richtext"
+        type: "markdown"
     },
 ];

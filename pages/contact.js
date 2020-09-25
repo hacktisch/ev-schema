@@ -19,9 +19,9 @@ module.exports = [
 			}
 		}
 	},
-	{ type: "richtext", source: "body", label: "Body text" },
-	{ type: "richtext", source: "contact_info", label: "Contact info" },
-	{ type: "richtext", source: "address", label: "Address info" },
+	{ type: "markdown", source: "body", label: "Body text" },
+	{ type: "markdown", source: "contact_info", label: "Contact info" },
+	{ type: "markdown", source: "address", label: "Address info" },
 	{
 		type: "array",
 
@@ -58,7 +58,7 @@ module.exports = [
 			{
 				source: "bio",
 				label: "Bio",
-				type: "richtext"
+				type: "markdown"
 			}
 		]
 	},

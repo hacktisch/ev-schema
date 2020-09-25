@@ -15,7 +15,7 @@ module.exports = [
     {
         tab: "details",
         source: "body",
-        type: "richtext",
+        type: "markdown",
         label: "Long description"
     },
     {

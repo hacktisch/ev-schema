@@ -4,7 +4,7 @@ module.exports = [
     require("./groups/published.js"),
     {
         source: "body",
-        type: "richtext",
+        type: "markdown",
         label: "Article text"
     },
 

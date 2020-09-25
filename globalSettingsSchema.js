@@ -460,13 +460,13 @@ module.exports = [
     {
         tab: "general",
         source: "phone_info",
-        type: "richtext",
+        type: "markdown",
         label: "Contact info block"
     },
         {
         tab: "general",
         source: "footer_links",
-        type: "richtext",
+        type: "markdown",
         label: "Extra links in footer"
     },
 
@@ -591,7 +591,7 @@ module.exports = [
             {
                 label: "Message",
                 source: "body",
-                type: "richtext"
+                type: "markdown"
             }
         ]
     }

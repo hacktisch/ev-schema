@@ -65,7 +65,7 @@ module.exports = [
 			{
 				source: "description",
 				label: "Description",
-				type: "richtext"
+				type: "markdown"
 			}
 		]
 	},
@@ -108,7 +108,7 @@ module.exports = [
 
 		source: "body",
 		label: "Body text",
-		type: "richtext"
+		type: "markdown"
 	},
 	{
 		tab: "text",
