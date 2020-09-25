@@ -133,8 +133,8 @@ module.exports = [
         multiple: "true",
         /////////validate: required
         label: "Category",
-        root: "main",
-        filter: { root: "main" },
+        root: "category",
+        filter: { root: "category" },
         reference: {
             resource: "tree",
             optionText: "text"

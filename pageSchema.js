@@ -135,8 +135,8 @@ module.exports = [
         type: "reference",
         /////////validate: required
         label: "Product category",
-        root: "main",
-        filter: { root: "main" },
+        root: "category",
+        filter: { root: "category" },
         reference: {
             resource: "tree",
             optionText: "text"
