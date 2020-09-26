@@ -84,14 +84,21 @@ module.exports = [
         sub: [
             {
                 source: "author",
+                label: "Author",
                 type: "text"
             },
             {
                 source: "rating",
-                type: "number"
+                label: "Rating",
+                type: "slider",
+                min:0,
+                max:100,
+                step:10,
+                factor:0.05
             },
             {
                 source: "text",
+                label: "Text",
                 type: "longtext"
             }
         ]
