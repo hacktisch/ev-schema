@@ -88,11 +88,6 @@ const localeFieldsSet=[
     "placeholder": "Show results"
   },
   {
-    "source": "INP_PARTY",
-    "label": "INP_PARTY",
-    "placeholder": "Describe your perfect party"
-  },
-  {
     "source": "FRONT_HEADER_SUB",
     "label": "FRONT_HEADER_SUB",
     "placeholder": "Only the best entertainment with top references. Search our range of 400+ options."
@@ -397,6 +392,16 @@ const localeFieldsSet=[
     "label": "INP_BUDGET",
     "placeholder": "Budget"
   },
+   {
+    "source": "INP_PARTY",
+    "label": "INP_PARTY",
+    "placeholder": "Describe your perfect party"
+  },
+     {
+    "source": "INP_MESSAGE",
+    "label": "INP_MESSAGE",
+    "placeholder": "Your message"
+  },  
   {
     "source": "USP_QUALITY",
     "label": "USP_QUALITY",

@@ -115,10 +115,12 @@ module.exports = [
         sub: [
             {
                 source: "title",
+                label:"Title",
                 type: "text"
             },
             {
                 source: "artist",
+                label:"Artist",
                 type: "text"
             }
         ]

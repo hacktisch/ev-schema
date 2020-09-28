@@ -37,7 +37,7 @@ module.exports = [
             {
                 source: "text",
                 label: "Description",
-                type: "longtext"
+                type: "markdown"
             },
             {
                 source: "path",
