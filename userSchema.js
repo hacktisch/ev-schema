@@ -9,7 +9,11 @@ module.exports = [
       
         source: "password",
         type: "password",
-        label: "Password"
+        label: "Password",
+        validate:[{
+                        type:"length",
+                        min:8
+                    }]
     },
 
 
