@@ -9,5 +9,6 @@ module.exports = {
 
 	front: require("./pages/front.js"),
 	contact: require("./pages/contact.js"),
-	request: require("./pages/request.js")
+	request: require("./pages/request.js"),
+	user: require("./user.js")
 };
