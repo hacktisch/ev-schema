@@ -39,15 +39,16 @@ module.exports = [
         source: "slides",
         type: "array",
         mode: "mediaplayer",
+        xor:true,
         sub: [
             {
-                when: ["!image"],
+              
                 source: "url",
                 label: "Youtube URL",
                 type: "text"
             },
             {
-                when: ["!url"],
+            
                 source: "image",
                 label: "Image",
                 type: "image",
