@@ -96,8 +96,8 @@ module.exports = [
 				accept: { "image/png": true, "image/webp": "png" },
 				transforms: {
 					_original: {
-						width: 400,
-						height: 100
+						width: 150,
+						height: 40
 					}
 				}
 			}
