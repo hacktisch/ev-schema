@@ -24,4 +24,6 @@ module.exports = [
         source: "bottom_text",
         type: "markdown"
     },
+    
+    require("../groups/metaTags.js")
 ];
