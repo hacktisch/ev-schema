@@ -20,7 +20,7 @@ const localeFieldsSet=[
   {
     "source": "CORONA_EXPL",
     "label": "CORONA_EXPL",
-    help: "Would you like to book entertainment, but are not sure whether your party date can continue? You can always postpone your booking with us for free if your party cannot go through due to government measures.<br/><br/>We offer this plan completely free of charge!"
+    help: "Would you like to book entertainment, but are not sure whether your party date can continue? You can always postpone your booking with us for free if your party cannot go through due to government measures.\nWe offer this plan completely free of charge!"
   },
   {
     "source": "RECEIVE_PROPOSAL",
