@@ -5,422 +5,422 @@ const localeFieldsSet=[
   {
     "source": "TIMES_REQUESTED",
     "label": "TIMES_REQUESTED",
-    "placeholder": "Requested %AMOUNT% times"
+    help: "Requested %AMOUNT% times"
   },
   {
     "source": "CORONABAR_SENTENCE",
     "label": "CORONABAR_SENTENCE",
-    "placeholder": "Book your entertainment with confidence with our free"
+    help: "Book your entertainment with confidence with our free"
   },
   {
     "source": "CORONA_RULE",
     "label": "CORONA_RULE",
-    "placeholder": "Corona plan"
+    help: "Corona plan"
   },
   {
     "source": "CORONA_EXPL",
     "label": "CORONA_EXPL",
-    "placeholder": "Would you like to book entertainment, but are not sure whether your party date can continue? You can always postpone your booking with us for free if your party cannot go through due to government measures.<br/><br/>We offer this plan completely free of charge!"
+    help: "Would you like to book entertainment, but are not sure whether your party date can continue? You can always postpone your booking with us for free if your party cannot go through due to government measures.<br/><br/>We offer this plan completely free of charge!"
   },
   {
     "source": "RECEIVE_PROPOSAL",
     "label": "RECEIVE_PROPOSAL",
-    "placeholder": "Receive proposal"
+    help: "Receive proposal"
   },
   {
     "source": "RECOMMENDATIONS",
     "label": "RECOMMENDATIONS",
-    "placeholder": "Our top recommendations"
+    help: "Our top recommendations"
   },
   {
     "source": "RECOMMENDATIONS_SKIP",
     "label": "RECOMMENDATIONS_SKIP",
-    "placeholder": "view all results"
+    help: "view all results"
   },
   {
     "source": "SEARCH_PLACEHOLDER",
     "label": "SEARCH_PLACEHOLDER",
-    "placeholder": "Search..."
+    help: "Search..."
   },
   {
     "source": "SEARCH_EXPL",
     "label": "SEARCH_EXPL",
-    "placeholder": "Search through our options"
+    help: "Search through our options"
   },
   {
     "source": "PHONE_EXPL",
     "label": "PHONE_EXPL",
-    "placeholder": "Call us now! We are happy to help you."
+    help: "Call us now! We are happy to help you."
   },
  /* {
     "source": "ORDER_DESC_ADDED",
     "label": "ORDER_DESC_ADDED",
-    "placeholder": "Act \"{{addedProduct.name}}\" has been added to your wish list. Enter the details below, or search further."
+    help: "Act \"{{addedProduct.name}}\" has been added to your wish list. Enter the details below, or search further."
   },*/
   {
     "source": "ORDER_DESC_DEFAULT",
     "label": "ORDER_DESC_DEFAULT",
-    "placeholder": "Enter the details below and receive a quote without obligation."
+    help: "Enter the details below and receive a quote without obligation."
   },
 /*  {
     "source": "ORDER_DESC_CONCIERGE",
     "label": "ORDER_DESC_CONCIERGE",
-    "placeholder": "Too difficult to choose? Let us help you with the best option for your occasion. Fill in as many details as possible. You will then receive several suggestions without obligation."
+    help: "Too difficult to choose? Let us help you with the best option for your occasion. Fill in as many details as possible. You will then receive several suggestions without obligation."
   },*/
   {
     "source": "Q_OCCASION",
     "label": "Q_OCCASION",
-    "placeholder": "What is your occasion?"
+    help: "What is your occasion?"
   },
   {
     "source": "Q_BUDGET",
     "label": "Q_BUDGET",
-    "placeholder": "What is your budget?"
+    help: "What is your budget?"
   },
   {
     "source": "Q_CATEGORY",
     "label": "Q_CATEGORY",
-    "placeholder": "Entertainment"
+    help: "Entertainment"
   },
   {
     "source": "SHOW_RESULTS",
     "label": "SHOW_RESULTS",
-    "placeholder": "Show results"
+    help: "Show results"
   },
   {
     "source": "FRONT_HEADER_SUB",
     "label": "FRONT_HEADER_SUB",
-    "placeholder": "Only the best entertainment with top references. Search our range of 400+ options."
+    help: "Only the best entertainment with top references. Search our range of 400+ options."
   },
   {
     "source": "EXTRA_FORM",
     "label": "EXTRA_FORM",
-    "placeholder": "Let us help you further and fill in one or more fields. This way we can take your wishes into account even better."
+    help: "Let us help you further and fill in one or more fields. This way we can take your wishes into account even better."
   },
   {
     "source": "BTN_HELP",
     "label": "BTN_HELP",
-    "placeholder": "Get help"
+    help: "Get help"
   },
   {
     "source": "BTN_OFFER",
     "label": "BTN_OFFER",
-    "placeholder": "Free quote"
+    help: "Free quote"
   },
   {
     "source": "BTN_COMPLETE",
     "label": "BTN_COMPLETE",
-    "placeholder": "Complete"
+    help: "Complete"
   },
   {
     "source": "BTN_NO_EXTRA",
     "label": "BTN_NO_EXTRA",
-    "placeholder": "Not necessary"
+    help: "Not necessary"
   },
   {
     "source": "BTN_BOOK",
     "label": "BTN_BOOK",
-    "placeholder": "Book now"
+    help: "Book now"
   },
   {
     "source": "ANY_QUESTIONS",
     "label": "ANY_QUESTIONS",
-    "placeholder": "Do you have any questions?"
+    help: "Do you have any questions?"
   },
   {
     "source": "NEWSLETTER_SUB",
     "label": "NEWSLETTER_SUB",
-    "placeholder": "Subscribe to the newsletter"
+    help: "Subscribe to the newsletter"
   },
   {
     "source": "NEWSLETTER_SUBBED",
     "label": "NEWSLETTER_SUBBED",
-    "placeholder": "You will now receive our newsletter!"
+    help: "You will now receive our newsletter!"
   },
   {
     "source": "PAYMENT_ACCEPT",
     "label": "PAYMENT_ACCEPT",
-    "placeholder": "We accept {{method}}"
+    help: "We accept {{method}}"
   },
   {
     "source": "FLT_CATEGORY_TOP",
     "label": "FLT_CATEGORY_TOP",
-    "placeholder": "Type entertainment"
+    help: "Type entertainment"
   },
   {
     "source": "FLT_RESET",
     "label": "FLT_RESET",
-    "placeholder": "Reset"
+    help: "Reset"
   },
   {
     "source": "FLT_NO_MAX",
     "label": "FLT_NO_MAX",
-    "placeholder": "No maximum"
+    help: "No maximum"
   },
   {
     "source": "FLT_RATING_MIN",
     "label": "FLT_RATING_MIN",
-    "placeholder": "Minimum:"
+    help: "Minimum:"
   },
   {
     "source": "FLT_AMT_1",
     "label": "FLT_AMT_1",
-    "placeholder": "1 Filter"
+    help: "1 Filter"
   },
   {
     "source": "FLT_AMT_MULT",
     "label": "FLT_AMT_MULT",
-    "placeholder": "{{amount}} filters"
+    help: "{{amount}} filters"
   },
   {
     "source": "RATING_TEXT",
     "label": "RATING_TEXT",
-    "placeholder": "{{rating}} out of 5 stars"
+    help: "{{rating}} out of 5 stars"
   },
   {
     "source": "BUDGET",
     "label": "BUDGET",
-    "placeholder": "Budget"
+    help: "Budget"
   },
   {
     "source": "RATING",
     "label": "RATING",
-    "placeholder": "Rating"
+    help: "Rating"
   },
   {
     "source": "RATING_AMT_1",
     "label": "RATING_AMT_1",
-    "placeholder": "1 Review"
+    help: "1 Review"
   },
   {
     "source": "RATING_AMT_MULT",
     "label": "RATING_AMT_MULT",
-    "placeholder": "{{amount}} Reviews"
+    help: "{{amount}} Reviews"
   },
   {
     "source": "RATING_SITE_TOTAL",
     "label": "RATING_SITE_TOTAL",
-    "placeholder": "Customers have given {{total}} reviews about Evenses."
+    help: "Customers have given {{total}} reviews about Evenses."
   },
   {
     "source": "RATING_SITE_AVG",
     "label": "RATING_SITE_AVG",
-    "placeholder": "The average rating is a {{average}} out of 5"
+    help: "The average rating is a {{average}} out of 5"
   },
   {
     "source": "SHOW_PRODUCT",
     "label": "SHOW_PRODUCT",
-    "placeholder": "More information"
+    help: "More information"
   },
   {
     "source": "PERC_MATCH",
     "label": "PERC_MATCH",
-    "placeholder": "{{percentage}} match"
+    help: "{{percentage}} match"
   },
   {
     "source": "PERC_EXPL",
     "label": "PERC_EXPL",
-    "placeholder": "This search result matches {{percentage}} to the search query you entered"
+    help: "This search result matches {{percentage}} to the search query you entered"
   },
   {
     "source": "FAV",
     "label": "FAV",
-    "placeholder": "Save in favourites"
+    help: "Save in favourites"
   },
   {
     "source": "GENRES",
     "label": "GENRES",
-    "placeholder": "Genres"
+    help: "Genres"
   },
   {
     "source": "BTN_VIDEO",
     "label": "BTN_VIDEO",
-    "placeholder": "Watch video"
+    help: "Watch video"
   },
   {
     "source": "NEXT_AMT",
     "label": "NEXT_AMT",
-    "placeholder": "Next {{amount}}"
+    help: "Next {{amount}}"
   },
   {
     "source": "OPEN_MENU",
     "label": "OPEN_MENU",
-    "placeholder": "Open the menu"
+    help: "Open the menu"
   },
   {
     "source": "TO_FRONT",
     "label": "TO_FRONT",
-    "placeholder": "To the front page"
+    help: "To the front page"
   },
   {
     "source": "CLOSE",
     "label": "CLOSE",
-    "placeholder": "Close"
+    help: "Close"
   },
   {
     "source": "SHOW_MORE_LINKS",
     "label": "SHOW_MORE_LINKS",
-    "placeholder": "Show more links"
+    help: "Show more links"
   },
   {
     "source": "REQUIRED_FIELD",
     "label": "REQUIRED_FIELD",
-    "placeholder": "required field"
+    help: "required field"
   },
   {
     "source": "SHOW_SHORT",
     "label": "SHOW_SHORT",
-    "placeholder": "More"
+    help: "More"
   },
   {
     "source": "REPERTOIRE",
     "label": "REPERTOIRE",
-    "placeholder": "Repertoire"
+    help: "Repertoire"
   },
   {
     "source": "SONGS",
     "label": "SONGS",
-    "placeholder": "Songs"
+    help: "Songs"
   },
   {
     "source": "GENRE",
     "label": "GENRE",
-    "placeholder": "Genre"
+    help: "Genre"
   },
   {
     "source": "OCCASION",
     "label": "OCCASION",
-    "placeholder": "Occasion"
+    help: "Occasion"
   },
   {
     "source": "TO",
     "label": "TO",
-    "placeholder": "To"
+    help: "To"
   },
   {
     "source": "SUBSCRIBE",
     "label": "SUBSCRIBE",
-    "placeholder": "Subscribe"
+    help: "Subscribe"
   },
   {
     "source": "PRICE_ON_REQUEST",
     "label": "PRICE_ON_REQUEST",
-    "placeholder": "price on request"
+    help: "price on request"
   },
   {
     "source": "SUITABLE_FOR",
     "label": "SUITABLE_FOR",
-    "placeholder": "Suitable for"
+    help: "Suitable for"
   },
   {
     "source": "CHECK_AV",
     "label": "CHECK_AV",
-    "placeholder": "Check availability"
+    help: "Check availability"
   },
   {
     "source": "CATEGORY",
     "label": "CATEGORY",
-    "placeholder": "Category"
+    help: "Category"
   },
   {
     "source": "FROM",
     "label": "FROM",
-    "placeholder": "From"
+    help: "From"
   },
   {
     "source": "READ_MORE",
     "label": "READ_MORE",
-    "placeholder": "Read more"
+    help: "Read more"
   },
   {
     "source": "CONTACT",
     "label": "CONTACT",
-    "placeholder": "Contact"
+    help: "Contact"
   },
   {
     "source": "RELATED",
     "label": "RELATED",
-    "placeholder": "You might also like"
+    help: "You might also like"
   },
   {
     "source": "INP_NAME",
     "label": "INP_NAME",
-    "placeholder": "Name"
+    help: "Name"
   },
   {
     "source": "INP_EMAIL",
     "label": "INP_EMAIL",
-    "placeholder": "Email"
+    help: "Email"
   },
   {
     "source": "INP_PHONE",
     "label": "INP_PHONE",
-    "placeholder": "Phone number"
+    help: "Phone number"
   },
   {
     "source": "INP_DATE",
     "label": "INP_DATE",
-    "placeholder": "Date of your event"
+    help: "Date of your event"
   },
   {
     "source": "INP_TIME_START",
     "label": "INP_TIME_START",
-    "placeholder": "Start time"
+    help: "Start time"
   },
   {
     "source": "INP_TIME_END",
     "label": "INP_TIME_END",
-    "placeholder": "End time"
+    help: "End time"
   },
   {
     "source": "INP_LOCATION",
     "label": "INP_LOCATION",
-    "placeholder": "Location"
+    help: "Location"
   },
   {
     "source": "INP_WISHES",
     "label": "INP_WISHES",
-    "placeholder": "Your wishes"
+    help: "Your wishes"
   },
   {
     "source": "INP_GUESTS",
     "label": "INP_GUESTS",
-    "placeholder": "Number of guests"
+    help: "Number of guests"
   },
   {
     "source": "INP_BUDGET",
     "label": "INP_BUDGET",
-    "placeholder": "Budget"
+    help: "Budget"
   },
    {
     "source": "INP_PARTY",
     "label": "INP_PARTY",
-    "placeholder": "Describe your perfect party"
+    help: "Describe your perfect party"
   },
      {
     "source": "INP_MESSAGE",
     "label": "INP_MESSAGE",
-    "placeholder": "Your message"
+    help: "Your message"
   },  
   {
     "source": "USP_QUALITY",
     "label": "USP_QUALITY",
-    "placeholder": "Guaranteed quality"
+    help: "Guaranteed quality"
   },
   {
     "source": "USP_SERVICE",
     "label": "USP_SERVICE",
-    "placeholder": "Personal service"
+    help: "Personal service"
   },
   {
     "source": "USP_GUARANTEE",
     "label": "USP_GUARANTEE",
-    "placeholder": "Always-playing guarantee"
+    help: "Always-playing guarantee"
   },
   {
     "source": "USP_EXPERIENCE",
     "label": "USP_EXPERIENCE",
-    "placeholder": "10.000+ events experience"
+    help: "10.000+ events experience"
   }
 ]
 
@@ -554,7 +554,7 @@ module.exports = [
         type: "text",
         props: {
             disabled: true,
-            placeholder: "/checkout/thank-you"
+            help: "/checkout/thank-you"
         }
     },
     {
@@ -575,7 +575,7 @@ module.exports = [
         label: "Search path prefix",
         type: "text",
         props: {
-            placeholder: "/search"
+            help: "/search"
         }
     },
     ...localeFields,
@@ -596,7 +596,8 @@ module.exports = [
             {
                 label: "Message",
                 source: "body",
-                type: "markdown"
+                type: "markdown",
+                help:"Available tokens: [name] [email] [phone] [products]"
             }
         ]
     }
