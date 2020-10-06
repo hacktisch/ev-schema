@@ -1,20 +1,15 @@
-module.exports={
-        tab: "meta",
-        source: "meta",
-        label: "Meta tags",
-        type: "array",
-        min: 1,
-        max: 1,
-        sub: [
-            {
-                source: "title",
+module.exports=[
+       
+        {
+             tab: "meta",
+                source: "meta[0]title",
                 label: "Title meta tag",
                 type: "longtext"
             },
             {
-                source: "description",
+                 tab: "meta",
+                source: "meta[0]description",
                 label: "Description meta tag",
                 type: "longtext"
             }
-        ]
-    }
+    ]

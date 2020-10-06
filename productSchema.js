@@ -183,6 +183,6 @@ module.exports = [
         refs
     },*/
 
-    require("./groups/metaTags.js"),
+ ...require("./groups/metaTags.js"),
     require("./groups/changed.js")
 ];

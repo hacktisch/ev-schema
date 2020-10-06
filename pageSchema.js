@@ -77,27 +77,23 @@ module.exports = [
             }
         ]
     },
-    {
-        tab: "media",
-        source: "banner",
-        label: "Banner texts",
-        type: "array",
-        min: 1,
-        max: 1,
-        sub: [
-            {
-                source: "title",
-                label: "Title",
+
+           {
+                 tab: "media",
+                source: "banner[0]title",
+                label: "Banner title",
                 type: "text"
             },
             {
-                source: "desc",
-                label: "Description",
+                 tab: "media",
+                source: "banner[0]desc",
+                label: "Banner description",
                 type: "longtext"
             },
             {
-                source: "backgrounds",
-                label: "Backgrounds",
+                 tab: "media",
+                source: "banner[0]backgrounds",
+                label: "Banner background",
                 type: "array",
                 sub: [
                     {
@@ -117,9 +113,8 @@ module.exports = [
                         }
                     }
                 ]
-            }
-        ]
-    },
+            },
+
     {
         tab: "catalog",
         source: "showCatalog",
@@ -148,6 +143,6 @@ module.exports = [
         type: "text"
     },
 
-    require("./groups/metaTags.js"),
+ ...require("./groups/metaTags.js"),
     require("./groups/changed.js")
 ];
