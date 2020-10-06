@@ -125,5 +125,5 @@ module.exports = [
 		type: "text"
 	},
 
-	 ...require("./groups/metaTags.js"),
+	 ...require("../groups/metaTags.js"),
 ];

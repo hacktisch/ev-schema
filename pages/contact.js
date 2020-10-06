@@ -64,5 +64,5 @@ module.exports = [
 	},
 
 
- ...require("./groups/metaTags.js"),
+ ...require("../groups/metaTags.js"),
 ];

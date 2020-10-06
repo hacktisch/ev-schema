@@ -25,5 +25,5 @@ module.exports = [
         type: "markdown"
     },
     
- ...require("./groups/metaTags.js"),
+ ...require("../groups/metaTags.js"),
 ];
