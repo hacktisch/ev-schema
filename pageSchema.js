@@ -80,19 +80,19 @@ module.exports = [
 
            {
                  tab: "media",
-                source: "banner[0]title",
+                source: "banner_title",
                 label: "Banner title",
                 type: "text"
             },
             {
                  tab: "media",
-                source: "banner[0]desc",
+                source: "banner_desc",
                 label: "Banner description",
                 type: "longtext"
             },
             {
                  tab: "media",
-                source: "banner[0]backgrounds",
+                source: "banner_backgrounds",
                 label: "Banner background",
                 type: "array",
                 sub: [
