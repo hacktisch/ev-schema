@@ -1,5 +1,6 @@
 module.exports = [
     { label: "Page title", type: "text", source: "title" },
+     require("../groups/pathReference.js"),
     {
         label: "Top text",
         source: "top_text",

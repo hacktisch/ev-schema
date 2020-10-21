@@ -2,6 +2,7 @@ module.exports = [
 
 
 	{ type: "text", source: "title", label: "Title" },
+	    require("../groups/pathReference.js"),
 	{
 		source: "header_img",
 		label: "Top image",

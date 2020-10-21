@@ -7,7 +7,8 @@ module.exports = {
     filter: {
         product_id: "IS NULL",
         article_id: "IS NULL",
-        page_id: "IS NULL"
+        page_id: "IS NULL",
+        view:"IS NULL"
     },
     reference: {
         resource: "path",
