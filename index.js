@@ -9,6 +9,7 @@ module.exports = {
 
 	front: require("./pages/front.js"),
 	contact: require("./pages/contact.js"),
+	notfound: require("./pages/notfound.js"),
 	request: require("./pages/request.js"),
 	user: require("./userSchema.js")
 };
