@@ -393,6 +393,7 @@ const localeFieldsSet = [
     label: "INP_MESSAGE",
     help: "Your message"
   }
+  
 ];
 
 const localeFields = localeFieldsSet.map(g => ({
