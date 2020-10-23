@@ -98,11 +98,6 @@ const localeFieldsSet = [
       "Let us help you further and fill in one or more fields. This way we can take your wishes into account even better."
   },
   {
-    source: "BTN_HELP",
-    label: "BTN_HELP",
-    help: "Get help"
-  },
-  {
     source: "BTN_OFFER",
     label: "BTN_OFFER",
     help: "Free quote"
@@ -116,11 +111,6 @@ const localeFieldsSet = [
     source: "BTN_NO_EXTRA",
     label: "BTN_NO_EXTRA",
     help: "Not necessary"
-  },
-  {
-    source: "BTN_BOOK",
-    label: "BTN_BOOK",
-    help: "Book now"
   },
   {
     source: "ANY_QUESTIONS",
@@ -402,26 +392,6 @@ const localeFieldsSet = [
     source: "INP_MESSAGE",
     label: "INP_MESSAGE",
     help: "Your message"
-  },
-  {
-    source: "USP_QUALITY",
-    label: "USP_QUALITY",
-    help: "Guaranteed quality"
-  },
-  {
-    source: "USP_SERVICE",
-    label: "USP_SERVICE",
-    help: "Personal service"
-  },
-  {
-    source: "USP_GUARANTEE",
-    label: "USP_GUARANTEE",
-    help: "Always-playing guarantee"
-  },
-  {
-    source: "USP_EXPERIENCE",
-    label: "USP_EXPERIENCE",
-    help: "10.000+ events experience"
   }
 ];
 
@@ -478,25 +448,29 @@ module.exports = [
     tab: "general",
     source: "usp_quality",
     label: "Usp: quality",
-    type: "text"
+    type: "text",
+    help: "Guaranteed quality"
   },
   {
     tab: "general",
     source: "usp_service",
     label: "Usp: service",
-    type: "text"
+    type: "text",
+    help: "Personal service"
   },
   {
     tab: "general",
     source: "usp_guarantee",
     label: "Usp: guarantee",
-    type: "text"
+    type: "text",
+    help: "Always-playing guarantee"
   },
   {
     tab: "general",
     source: "usp_experience",
     label: "Usp: experience",
-    type: "text"
+    type: "text",
+    help: "10.000+ events experience"
   },
 
   {
