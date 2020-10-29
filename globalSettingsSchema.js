@@ -492,7 +492,6 @@ module.exports = [
     ]
   },
 
-
   {
     tab: "general",
     source: "paymentMethods",
@@ -553,6 +552,51 @@ module.exports = [
       help: "/search"
     }
   },
+
+  {
+    tab: "settings",
+    source: "constants:ua",
+    label: "Google Analytics UA code",
+    type: "text"
+  },
+
+
+    {
+    tab: "address",
+    source: "address:streetAddress",
+    label: "Street + nr",
+    type: "text"
+  },
+      {
+    tab: "address",
+    source: "address:addressLocality",
+    label: "City",
+    type: "text"
+  },
+      {
+    tab: "address",
+    source: "address:postalCode",
+    label: "Postal code",
+    type: "text"
+  },
+      {
+    tab: "address",
+    source: "address:addressCountry",
+    label: "Country",
+    type: "text"
+  },
+
+
+
+
+streetAddress: "Frejgatan 13",
+      addressLocality: "Stockholm",
+      postalCode: "11479",
+      addressCountry: "Sverige"
+
+
+
+
 
 
   ...localeFields,
