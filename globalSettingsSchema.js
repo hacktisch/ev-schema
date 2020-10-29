@@ -46,6 +46,11 @@ const localeFieldsSet = [
     help: "Search through our options"
   },
   {
+    source: "SEARCH_TITLE",
+    label: "SEARCH_TITLE",
+    help: "Search"
+  },
+  {
     source: "PHONE_EXPL",
     label: "PHONE_EXPL",
     help: "Call us now! We are happy to help you."
@@ -393,7 +398,6 @@ const localeFieldsSet = [
     label: "INP_MESSAGE",
     help: "Your message"
   }
-  
 ];
 
 const localeFields = localeFieldsSet.map(g => ({
@@ -496,7 +500,19 @@ module.exports = [
   {
     tab: "settings",
     source: "constants:currency",
-    label: "Currency code",
+    label: "ISO 4217 Currency code",
+    type: "text"
+  },
+  {
+    tab: "settings",
+    source: "constants:mailbox",
+    label: "Email address that receives requests",
+    type: "email"
+  },
+  {
+    tab: "settings",
+    source: "constants:langcode",
+    label: "ISO 639-1 Language code",
     type: "text"
   },
   {
@@ -529,6 +545,21 @@ module.exports = [
     props: {
       help: "/search"
     }
+  },
+
+  {
+    tab: "settings",
+    source: "paymentMethods",
+    label: "Payment methods",
+    type: "checkboxes",
+    choices: [
+      { id: "ideal", name: "iDeal" },
+      { id: "bancontact", name: "Bancontact" },
+      { id: "sofort", name: "Sofort" },
+
+      { id: "creditcard", name: "creditcard" },
+      { id: "paypal", name: "Paypal" }
+    ]
   },
   ...localeFields,
 
