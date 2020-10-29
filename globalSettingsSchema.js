@@ -534,16 +534,6 @@ module.exports = [
   },
   {
     tab: "settings",
-    source: "constants:goto",
-    label: "Order completed path",
-    type: "text",
-    props: {
-      disabled: true,
-      help: "/checkout/thank-you"
-    }
-  },
-  {
-    tab: "settings",
     source: "constants:rangeMin",
     label: "Minimum in price range filter",
     type: "number"
