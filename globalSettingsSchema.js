@@ -491,6 +491,23 @@ module.exports = [
       }
     ]
   },
+
+
+  {
+    tab: "general",
+    source: "paymentMethods",
+    label: "Payment methods",
+    type: "checkboxes",
+    choices: [
+      { id: "ideal", name: "iDeal" },
+      { id: "bancontact", name: "Bancontact" },
+      { id: "sofort", name: "Sofort" },
+
+      { id: "creditcard", name: "creditcard" },
+      { id: "paypal", name: "Paypal" }
+    ]
+  },
+
   {
     tab: "settings",
     source: "constants:phone",
@@ -547,20 +564,7 @@ module.exports = [
     }
   },
 
-  {
-    tab: "settings",
-    source: "paymentMethods",
-    label: "Payment methods",
-    type: "checkboxes",
-    choices: [
-      { id: "ideal", name: "iDeal" },
-      { id: "bancontact", name: "Bancontact" },
-      { id: "sofort", name: "Sofort" },
 
-      { id: "creditcard", name: "creditcard" },
-      { id: "paypal", name: "Paypal" }
-    ]
-  },
   ...localeFields,
 
   {
