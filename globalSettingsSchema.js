@@ -545,6 +545,24 @@ module.exports = [
   },
   {
     tab: "settings",
+    source: "constants:decimalSeparator",
+    label: "Decimal separator in all numbers",
+    type: "number",
+    props: {
+      help: "(, or .)"
+    }
+  },
+  {
+    tab: "settings",
+    source: "constants:moneyFormat",
+    label: "Money format",
+    type: "number",
+    props: {
+      help: "# = number, * = currency symbol (e.g.: '# *', '* #', '#*', '*#')"
+    }
+  },
+  {
+    tab: "settings",
     source: "constants:searchPath",
     label: "Search path prefix",
     type: "text",
@@ -560,44 +578,30 @@ module.exports = [
     type: "text"
   },
 
-
-    {
+  {
     tab: "address",
     source: "address:streetAddress",
     label: "Street + nr",
     type: "text"
   },
-      {
+  {
     tab: "address",
     source: "address:addressLocality",
     label: "City",
     type: "text"
   },
-      {
+  {
     tab: "address",
     source: "address:postalCode",
     label: "Postal code",
     type: "text"
   },
-      {
+  {
     tab: "address",
     source: "address:addressCountry",
     label: "Country",
     type: "text"
   },
-
-
-
-
-streetAddress: "Frejgatan 13",
-      addressLocality: "Stockholm",
-      postalCode: "11479",
-      addressCountry: "Sverige"
-
-
-
-
-
 
   ...localeFields,
 
