@@ -547,28 +547,25 @@ module.exports = [
     tab: "settings",
     source: "constants:decimalSeparator",
     label: "Decimal separator in all numbers",
-    type: "number",
-    props: {
-      help: "(, or .)"
-    }
+    type: "text",
+
+    help: "(, or .)"
   },
   {
     tab: "settings",
     source: "constants:moneyFormat",
     label: "Money format",
-    type: "number",
-    props: {
-      help: "# = number, * = currency symbol (e.g.: '# *', '* #', '#*', '*#')"
-    }
+    type: "text",
+
+    help: "# = number, * = currency symbol (e.g.: '# *', '* #', '#*', '*#')"
   },
   {
     tab: "settings",
     source: "constants:searchPath",
     label: "Search path prefix",
     type: "text",
-    props: {
-      help: "/search"
-    }
+
+    help: "search"
   },
 
   {
