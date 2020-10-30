@@ -410,6 +410,37 @@ const localeFields = localeFieldsSet.map(g => ({
 module.exports = [
   {
     tab: "general",
+    type: "color",
+    label: "Color 1",
+    source: "color_1"
+  },
+  {
+    tab: "general",
+    type: "color",
+    label: "Color 2",
+    source: "color_2"
+  },
+  {
+    tab: "general",
+    type: "color",
+    label: "Color 3",
+    source: "color_3"
+  },
+
+  {
+    tab: "general",
+    source: "logo",
+    label: "Logo",
+
+    type: "select",
+    choices: ["Evenses", "Advocaathulp"].map(name => ({
+      id: name.toLowerCase(),
+      name
+    }))
+  },
+
+  {
+    tab: "general",
     source: "social_links",
     type: "array",
     sub: [
