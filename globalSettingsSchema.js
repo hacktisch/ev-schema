@@ -407,24 +407,28 @@ const localeFields = localeFieldsSet.map(g => ({
   type: "longtext"
 }));
 
+
 module.exports = [
   {
     tab: "general",
     type: "color",
     label: "Color 1",
-    source: "color_1"
+    source: "color_1",
+    defaultColor:"#0088CC"
   },
   {
     tab: "general",
     type: "color",
     label: "Color 2",
-    source: "color_2"
+    source: "color_2",
+    defaultColor:"#2CA662"
   },
   {
     tab: "general",
     type: "color",
     label: "Color 3",
-    source: "color_3"
+    source: "color_3",
+    defaultColor:"#0D1112"
   },
 
   {
