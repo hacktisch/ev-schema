@@ -4,6 +4,7 @@ module.exports = {
 		{ id: "footer", name: "Footer menu" },
 		{ id: "contact", name: "Contact menu" },
 		{ id: "occasion", name: "Occasions" },
-		{ id: "genre", name: "Genres" }
+		{ id: "genre", name: "Genres" },
+		{ id: "region", name: "Regions" }
 	]
 };
