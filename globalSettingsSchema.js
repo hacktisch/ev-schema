@@ -405,6 +405,11 @@ const localeFieldsSet = [
     help: "Location"
   },
   {
+    source: "FIND_PLACE",
+    label: "FIND_PLACE",
+    help: "Find a place"
+  },
+  {
     source: "OPERATES_IN",
     label: "OPERATES_IN",
     help: "Operates in"
