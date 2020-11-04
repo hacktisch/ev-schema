@@ -14,16 +14,33 @@ module.exports = [
 		]
 	},
 	{
-    //tab: "main",
-    source: "product_id",
-    type: "reference",
-    label: "Product",
-    
-    reference: {
-        resource: "product",
-        optionText: "title"
-    }
-
-    ///////////  validate: required
-}
+		
+		source: "product_id",
+		type: "reference",
+		label: "Product",
+		reference: {
+			resource: "product",
+			optionText: "title"
+		}
+	},
+	{
+		
+		source: "page_id",
+		type: "reference",
+		label: "Page",
+		reference: {
+			resource: "page",
+			optionText: "title"
+		}
+	},
+	{
+		
+		source: "article_id",
+		type: "reference",
+		label: "Article",
+		reference: {
+			resource: "article",
+			optionText: "title"
+		}
+	}
 ];
