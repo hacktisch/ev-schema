@@ -12,5 +12,18 @@ module.exports = [
 					"Only alphanumerical characters and hyphens allowed. Do not start or end with a slash. Double slashes (//) not allowed."
 			}
 		]
-	}
+	},
+	{
+    //tab: "main",
+    source: "product_id",
+    type: "reference",
+    label: "Product",
+    
+    reference: {
+        resource: "product",
+        optionText: "title"
+    }
+
+    ///////////  validate: required
+}
 ];
