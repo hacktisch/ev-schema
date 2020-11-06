@@ -14,7 +14,7 @@ module.exports = [
 		]
 	},
 	{
-		
+		tab:"_NONE_",
 		source: "product_id",
 		type: "reference",
 		label: "Product",
@@ -24,7 +24,7 @@ module.exports = [
 		}
 	},
 	{
-		
+		tab:"_NONE_",
 		source: "page_id",
 		type: "reference",
 		label: "Page",
@@ -34,7 +34,7 @@ module.exports = [
 		}
 	},
 	{
-		
+		tab:"_NONE_",
 		source: "article_id",
 		type: "reference",
 		label: "Article",
