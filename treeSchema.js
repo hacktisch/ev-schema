@@ -20,6 +20,9 @@ module.exports = [
         source: "path_id",
         type: "reference",
         label: "Path",
+        filter: {
+            weight: 0
+        },
         reference: {
             resource: "path",
             optionText: "path",

@@ -43,6 +43,9 @@ module.exports = [
                 source: "path",
                 type: "reference",
                 label: "Path",
+                filter: {
+                    weight: 0
+                },
                 reference: {
                     resource: "path",
                     optionText: "path",
@@ -60,6 +63,9 @@ module.exports = [
                         source: "path",
                         type: "reference",
                         label: "Path",
+                        filter: {
+                            weight: 0
+                        },
                         reference: {
                             resource: "path",
                             optionText: "path",
@@ -78,42 +84,42 @@ module.exports = [
         ]
     },
 
-           {
-                 tab: "media",
-                source: "banner_title",
-                label: "Banner title",
-                type: "text"
-            },
+    {
+        tab: "media",
+        source: "banner_title",
+        label: "Banner title",
+        type: "text"
+    },
+    {
+        tab: "media",
+        source: "banner_desc",
+        label: "Banner description",
+        type: "longtext"
+    },
+    {
+        tab: "media",
+        source: "banner_backgrounds",
+        label: "Banner background",
+        type: "array",
+        sub: [
             {
-                 tab: "media",
-                source: "banner_desc",
-                label: "Banner description",
-                type: "longtext"
-            },
-            {
-                 tab: "media",
-                source: "banner_backgrounds",
-                label: "Banner background",
-                type: "array",
-                sub: [
-                    {
-                        source: "image",
-                        label: "Image",
-                        type: "image",
-                        accept: {
-                            "image/jpeg": true,
-                            "image/webp": "jpg",
-                            "image/png": "jpg"
-                        },
-                        transforms: {
-                            _original: {
-                                width: 1920,
-                                height: 1080
-                            }
-                        }
+                source: "image",
+                label: "Image",
+                type: "image",
+                accept: {
+                    "image/jpeg": true,
+                    "image/webp": "jpg",
+                    "image/png": "jpg"
+                },
+                transforms: {
+                    _original: {
+                        width: 1920,
+                        height: 1080
                     }
-                ]
-            },
+                }
+            }
+        ]
+    },
 
     {
         tab: "catalog",
@@ -143,6 +149,6 @@ module.exports = [
         type: "text"
     },
 
- ...require("./groups/metaTags.js"),
+    ...require("./groups/metaTags.js"),
     require("./groups/changed.js")
 ];
