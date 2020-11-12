@@ -4,6 +4,7 @@ module.exports = {
     type: "reference",
     label: "Path",
     multiple: "true",
+    sortable:"weight",
     filter: {
         product_id: "IS NULL",
         article_id: "IS NULL",
