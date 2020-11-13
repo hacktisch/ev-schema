@@ -556,7 +556,13 @@ module.exports = [
       { id: "paypal", name: "Paypal" }
     ]
   },
-
+  {
+    tab: "settings",
+    source: "constants:siteName",
+    label: "Site name",
+    type: "text",
+    help:"Company name as shown in the browser title bar"
+  },
   {
     tab: "settings",
     source: "constants:phone",
