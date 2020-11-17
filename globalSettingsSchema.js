@@ -393,6 +393,11 @@ const localeFieldsSet = [
     label: "INP_PARTY",
     help: "Describe your perfect party"
   },
+    {
+    source: "INP_CATERING",
+    label: "INP_CATERING",
+    help: "I would like to receive information about catering for my event"
+  },
   {
     source: "INP_MESSAGE",
     label: "INP_MESSAGE",
