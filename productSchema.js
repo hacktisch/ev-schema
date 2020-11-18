@@ -146,7 +146,9 @@ module.exports = [
         filter: { root: "category" },
         reference: {
             resource: "tree",
-            optionText: "text",
+            optionText: "text"
+        },
+        props: {
             sort: { field: "weight", order: "asc" }
         }
     },
@@ -160,7 +162,9 @@ module.exports = [
         filter: { root: "occasion" },
         reference: {
             resource: "tree",
-            optionText: "text",
+            optionText: "text"
+        },
+        props: {
             sort: { field: "weight", order: "asc" }
         }
     },
@@ -174,7 +178,9 @@ module.exports = [
         filter: { root: "genre" },
         reference: {
             resource: "tree",
-            optionText: "text",
+            optionText: "text"
+        },
+        props: {
             sort: { field: "weight", order: "asc" }
         }
     },
