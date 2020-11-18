@@ -429,7 +429,7 @@ const localeFieldsSet = [
     source: "HELP_POPUP_TEXT",
     label: "HELP_POPUP_TEXT",
     help:
-      "Our team gladly helps planning your event\nTell us your wishes and we'll provide you with a few suggestions.\nThis is free of charge and without obligation!"
+      "Our team gladly helps planning your event. Tell us your wishes and we'll provide you with a few suggestions. This is free of charge and without obligation!"
   },
   {
     source: "HELP_POPUP_YES",
