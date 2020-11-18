@@ -393,7 +393,7 @@ const localeFieldsSet = [
     label: "INP_PARTY",
     help: "Describe your perfect party"
   },
-    {
+  {
     source: "INP_CATERING",
     label: "INP_CATERING",
     help: "I would like to receive information about catering for my event"
@@ -425,7 +425,8 @@ const localeFields = localeFieldsSet.map(g => ({
   ...g,
   tab: "locale",
   source: "locale:" + g.source,
-  type: "longtext"
+  type: "longtext",
+  multiline: true
 }));
 
 module.exports = [
@@ -509,6 +510,7 @@ module.exports = [
     source: "usp_quality",
     label: "Usp: quality",
     type: "text",
+    multiline: true,
     help: "Guaranteed quality"
   },
   {
@@ -516,6 +518,7 @@ module.exports = [
     source: "usp_service",
     label: "Usp: service",
     type: "text",
+    multiline: true,
     help: "Personal service"
   },
   {
@@ -523,6 +526,7 @@ module.exports = [
     source: "usp_guarantee",
     label: "Usp: guarantee",
     type: "text",
+    multiline: true,
     help: "Always-playing guarantee"
   },
   {
@@ -530,6 +534,7 @@ module.exports = [
     source: "usp_experience",
     label: "Usp: experience",
     type: "text",
+    multiline: true,
     help: "10.000+ events experience"
   },
 
@@ -542,7 +547,8 @@ module.exports = [
       {
         source: "title",
         label: "USP Text",
-        type: "text"
+        type: "text",
+         multiline:true,
       }
     ]
   },
@@ -566,7 +572,7 @@ module.exports = [
     source: "constants:siteName",
     label: "Site name",
     type: "text",
-    help:"Company name as shown in the browser title bar"
+    help: "Company name as shown in the browser title bar"
   },
   {
     tab: "settings",

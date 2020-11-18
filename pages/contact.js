@@ -1,8 +1,6 @@
 module.exports = [
-
-
 	{ type: "text", source: "title", label: "Title" },
-	    require("../groups/pathReference.js"),
+	require("../groups/pathReference.js"),
 	{
 		source: "header_img",
 		label: "Top image",
@@ -54,7 +52,8 @@ module.exports = [
 			{
 				source: "role",
 				label: "Job description",
-				type: "text"
+				type: "text",
+				multiline: true
 			},
 			{
 				source: "bio",
@@ -64,6 +63,5 @@ module.exports = [
 		]
 	},
 
-
- ...require("../groups/metaTags.js"),
+	...require("../groups/metaTags.js")
 ];

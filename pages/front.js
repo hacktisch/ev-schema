@@ -4,7 +4,8 @@ module.exports = [
 		tab: "banner",
 		source: "banner_desc",
 		label: "Description",
-		type: "longtext"
+		type: "longtext",
+		 multiline:true
 	},
 	{
 		tab: "banner",
@@ -80,7 +81,8 @@ module.exports = [
 
 		source: "selection_title",
 		label: "Title above products",
-		type: "text"
+		type: "text",
+		 multiline:true,
 	},
 	{
 		tab: "logo_bar",

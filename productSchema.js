@@ -5,7 +5,8 @@ module.exports = [
     {
         tab: "details",
         source: "lead",
-        type: "longtext"
+        type: "longtext",
+         multiline:true
     },
     {
         tab: "details",
@@ -100,7 +101,8 @@ module.exports = [
             {
                 source: "text",
                 label: "Text",
-                type: "longtext"
+                type: "longtext",
+                multiline:true
             }
         ]
     },

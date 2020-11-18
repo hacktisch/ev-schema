@@ -94,7 +94,8 @@ module.exports = [
         tab: "media",
         source: "banner_desc",
         label: "Banner description",
-        type: "longtext"
+        type: "longtext",
+        multiline: true
     },
     {
         tab: "media",
@@ -146,7 +147,8 @@ module.exports = [
     {
         tab: "catalog",
         source: "addSentence",
-        type: "text"
+        type: "text",
+        multiline: true
     },
 
     ...require("./groups/metaTags.js"),
