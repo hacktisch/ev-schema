@@ -141,7 +141,8 @@ module.exports = [
         filter: { root: "category" },
         reference: {
             resource: "tree",
-            optionText: "text"
+            optionText: "text",
+            sort: { field: "weight", order: "asc" }
         }
     },
     {

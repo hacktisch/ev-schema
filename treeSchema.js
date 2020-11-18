@@ -40,7 +40,8 @@ module.exports = [
             optionText: "text"
         },
         props: {
-            resettable: true
+            resettable: true,
+            sort: { field: "weight", order: "asc" }
         }
     },
     {

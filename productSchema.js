@@ -6,7 +6,7 @@ module.exports = [
         tab: "details",
         source: "lead",
         type: "longtext",
-         multiline:true
+        multiline: true
     },
     {
         tab: "details",
@@ -33,23 +33,20 @@ module.exports = [
         }
         /////////validate: required
     },
-  
 
     {
         tab: "media",
         source: "slides",
         type: "array",
         mode: "mediaplayer",
-        xor:true,
+        xor: true,
         sub: [
             {
-              
                 source: "url",
                 label: "Youtube URL",
                 type: "text"
             },
             {
-            
                 source: "image",
                 label: "Image",
                 type: "image",
@@ -93,16 +90,16 @@ module.exports = [
                 source: "rating",
                 label: "Rating",
                 type: "slider",
-                min:0,
-                max:100,
-                step:10,
-                factor:0.05
+                min: 0,
+                max: 100,
+                step: 10,
+                factor: 0.05
             },
             {
                 source: "text",
                 label: "Text",
                 type: "longtext",
-                multiline:true
+                multiline: true
             }
         ]
     },
@@ -118,12 +115,12 @@ module.exports = [
         sub: [
             {
                 source: "title",
-                label:"Title",
+                label: "Title",
                 type: "text"
             },
             {
                 source: "artist",
-                label:"Artist",
+                label: "Artist",
                 type: "text"
             }
         ]
@@ -149,7 +146,8 @@ module.exports = [
         filter: { root: "category" },
         reference: {
             resource: "tree",
-            optionText: "text"
+            optionText: "text",
+            sort: { field: "weight", order: "asc" }
         }
     },
     {
@@ -162,7 +160,8 @@ module.exports = [
         filter: { root: "occasion" },
         reference: {
             resource: "tree",
-            optionText: "text"
+            optionText: "text",
+            sort: { field: "weight", order: "asc" }
         }
     },
     {
@@ -175,7 +174,8 @@ module.exports = [
         filter: { root: "genre" },
         reference: {
             resource: "tree",
-            optionText: "text"
+            optionText: "text",
+            sort: { field: "weight", order: "asc" }
         }
     },
 
@@ -185,6 +185,6 @@ module.exports = [
         refs
     },*/
 
- ...require("./groups/metaTags.js"),
+    ...require("./groups/metaTags.js"),
     require("./groups/changed.js")
 ];
