@@ -11,5 +11,8 @@ module.exports = {
 	contact: require("./pages/contact.js"),
 	notfound: require("./pages/notfound.js"),
 	request: require("./pages/request.js"),
+	blog: require("./pages/blog.js"),
+	partners: require("./pages/partners.js"),
+
 	user: require("./userSchema.js")
 };
