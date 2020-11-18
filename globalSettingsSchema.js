@@ -418,6 +418,28 @@ const localeFieldsSet = [
     source: "OPERATES_IN",
     label: "OPERATES_IN",
     help: "Operates in"
+  },
+
+  {
+    source: "HELP_POPUP_TITLE",
+    label: "HELP_POPUP_TITLE",
+    help: "Let us help you find what you need"
+  },
+  {
+    source: "HELP_POPUP_TEXT",
+    label: "HELP_POPUP_TEXT",
+    help:
+      "Our team gladly helps planning your event\nTell us your wishes and we'll provide you with a few suggestions.\nThis is free of charge and without obligation!"
+  },
+  {
+    source: "HELP_POPUP_YES",
+    label: "HELP_POPUP_YES",
+    help: "I would like to have some guidance"
+  },
+  {
+    source: "HELP_POPUP_NO",
+    label: "HELP_POPUP_NO",
+    help: "No, I prefer to look at the possibilities myself"
   }
 ];
 
@@ -548,7 +570,7 @@ module.exports = [
         source: "title",
         label: "USP Text",
         type: "text",
-         multiline:true,
+        multiline: true
       }
     ]
   },
