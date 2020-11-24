@@ -14,5 +14,6 @@ module.exports = {
 	blog: require("./pages/blog.js"),
 	partners: require("./pages/partners.js"),
 
-	user: require("./userSchema.js")
+	user: require("./userSchema.js"),
+	timestamp: require("./timestamp.js")
 };

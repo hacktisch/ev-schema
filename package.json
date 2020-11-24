@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "v":"git log --pretty=format:'%h' -n 1"
+    "v":"git log --pretty=format:'%h' -n 1",
+    "timestamp":"echo \"module.exports='$(date '+%Y-%m-%d')'\" > timestamp.js"
   },
   "repository": {
     "type": "git",
