@@ -440,6 +440,37 @@ const localeFieldsSet = [
     source: "HELP_POPUP_NO",
     label: "HELP_POPUP_NO",
     help: "No, I prefer to look at the possibilities myself"
+  },
+
+  {
+    source: "SORT_RELEVANCE",
+    label: "SORT_RELEVANCE",
+    help: "Relevance"
+  },
+  {
+    source: "SORT_RATING",
+    label: "SORT_RATING",
+    help: "Best rated"
+  },
+  {
+    source: "SORT_PRICE_ASC",
+    label: "SORT_PRICE_ASC",
+    help: "Price (Low > High)"
+  },
+  {
+    source: "SORT_PRICE_DESC",
+    label: "SORT_PRICE_DESC",
+    help: "Price (High > Low)"
+  },
+  {
+    source: "SORT_TITLE",
+    label: "SORT_TITLE",
+    help: "Alphabetical (A > Z)"
+  },
+  {
+    source: "SORT_DATE",
+    label: "SORT_DATE",
+    help: "Last added"
   }
 ];
 
