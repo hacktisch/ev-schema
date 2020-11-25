@@ -158,6 +158,11 @@ const localeFieldsSet = [
     help: "Minimum:"
   },
   {
+    source: "FLT",
+    label: "FLT",
+    help: "Filter"
+  },
+  {
     source: "FLT_AMT_1",
     label: "FLT_AMT_1",
     help: "1 Filter"
