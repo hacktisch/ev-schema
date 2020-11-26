@@ -476,6 +476,11 @@ const localeFieldsSet = [
     source: "SORT_DATE",
     label: "SORT_DATE",
     help: "Last added"
+  },
+  {
+    source: "PARTNER_SITE",
+    label: "PARTNER_SITE",
+    help: "Partner website"
   }
 ];
 
