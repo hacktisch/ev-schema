@@ -28,6 +28,9 @@ module.exports = [
             optionText: "path",
             inputType: "autocomplete"
         },
+        props: {
+            sort: { field: "length(path)", order: "asc" }
+        },
 
         validate: ["required"]
     },

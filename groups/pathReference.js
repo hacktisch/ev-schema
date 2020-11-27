@@ -4,18 +4,21 @@ module.exports = {
     type: "reference",
     label: "Path",
     multiple: "true",
-    sortable:"weight",
+    sortable: "weight",
     filter: {
         product_id: "IS NULL",
         article_id: "IS NULL",
         page_id: "IS NULL",
-        view:"IS NULL"
+        view: "IS NULL"
     },
     reference: {
         resource: "path",
         optionText: "path",
         inputType: "autocomplete",
         quickCreate: true
+    },
+    props: {
+        sort: { field: "length(path)", order: "asc" }
     }
 
     ///////////  validate: required

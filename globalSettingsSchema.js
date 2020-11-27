@@ -446,7 +446,11 @@ const localeFieldsSet = [
     label: "HELP_POPUP_NO",
     help: "No, I prefer to look at the possibilities myself"
   },
-
+  {
+    source: "SORT_BY",
+    label: "SORT_BY",
+    help: "Sort by"
+  },
   {
     source: "SORT_RELEVANCE",
     label: "SORT_RELEVANCE",
