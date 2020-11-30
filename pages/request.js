@@ -1,6 +1,6 @@
 module.exports = [
     { label: "Page title", type: "text", source: "title" },
-     require("../groups/pathReference.js"),
+    require("../groups/pathReference.js"),
     {
         label: "Top text",
         source: "top_text",
@@ -20,11 +20,47 @@ module.exports = [
             }
         ]
     },
-        {
+    {
         label: "Bottom text",
         source: "bottom_text",
         type: "markdown"
     },
-    
- ...require("../groups/metaTags.js"),
+
+    {
+        source: "affiliate",
+        type: "array",
+        sub: [
+            {
+                source: "title",
+                label: "Title",
+                type: "longtext"
+            },
+            {
+                source: "text",
+                label: "Description",
+                type: "markdown"
+            },
+
+            {
+                source: "products",
+                type: "array",
+                label: "Products",
+                sub: [
+                    {
+                        source: "id",
+                        type: "reference",
+                        label: "Product",
+
+                        reference: {
+                            resource: "product",
+                            optionText: "title",
+                            inputType: "autocomplete"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+
+    ...require("../groups/metaTags.js")
 ];
