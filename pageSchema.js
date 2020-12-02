@@ -147,12 +147,6 @@ module.exports = [
             sort: { field: "weight", order: "asc" }
         }
     },
-    {
-        tab: "catalog",
-        source: "addSentence",
-        type: "text",
-        multiline: true
-    },
 
     ...require("./groups/metaTags.js"),
     require("./groups/changed.js")

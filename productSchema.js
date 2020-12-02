@@ -10,11 +10,6 @@ module.exports = [
     },
     {
         tab: "details",
-        source: "blurb",
-        type: "text"
-    },
-    {
-        tab: "details",
         source: "body",
         type: "markdown",
         label: "Long description"
