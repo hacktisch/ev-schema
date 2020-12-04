@@ -9,12 +9,15 @@ module.exports = [
         type: "select",
         label: "Gender",
         choices: [
-            { id: "human", name: "Genderfluid" },
+            { id: "human", name: "Human" },
             { id: "female", name: "Female" },
             { id: "male", name: "Male" },
             { id: "bottts", name: "Robot" },
-            { id: "gridy", name: "Next Level Genderfluid" }
+            { id: "gridy", name: "Genderfluid" }
         ],
+        props: {
+            defaultValue: "human"
+        },
 
         validate: ["required"],
         mode: "avatar",
