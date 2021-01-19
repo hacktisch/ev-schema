@@ -485,6 +485,35 @@ const localeFieldsSet = [
     source: "PARTNER_SITE",
     label: "PARTNER_SITE",
     help: "Partner website"
+  },
+
+  {
+    source: "ADVICE_HEAD",
+    label: "ADVICE_HEAD",
+    help: "Advice or help needed?"
+  },
+  {
+    source: "ADVICE_DESC",
+    label: "ADVICE_DESC",
+    help: "7 days a week we are ready to help you via"
+  },
+
+  {
+    source: "OR_CALL",
+    label: "OR_CALL",
+    help: "or by phone:"
+  },
+
+  {
+    source: "CALL_ME",
+    label: "CALL_ME",
+    help: "Or let us call you back"
+  },
+
+  {
+    source: "SEND",
+    label: "SEND",
+    help: "Send"
   }
 ];
 
