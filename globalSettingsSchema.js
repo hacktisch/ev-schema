@@ -68,7 +68,7 @@ const localeFieldsSet = [
     {
     source: "INFO_ABOUT",
     label: "INFO_ABOUT",
-    help: "Request information about"
+    help: "Request information about {{product}}"
   },
   /*  {
     "source": "ORDER_DESC_CONCIERGE",
