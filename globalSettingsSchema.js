@@ -65,6 +65,11 @@ const localeFieldsSet = [
     label: "ORDER_DESC_DEFAULT",
     help: "Enter the details below and receive a quote without obligation."
   },
+    {
+    source: "INFO_ABOUT",
+    label: "INFO_ABOUT",
+    help: "Request information about"
+  },
   /*  {
     "source": "ORDER_DESC_CONCIERGE",
     "label": "ORDER_DESC_CONCIERGE",
