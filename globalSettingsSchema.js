@@ -411,23 +411,6 @@ const localeFieldsSet = [
   },
 
   {
-    source: "AFFILIATE_FORM",
-    label: "AFFILIATE_FORM",
-    help:
-      "Evenses can arrange everything for your party with ease. If you are interested to hear our options for catering or a photo/video report of your party, please let us know. We will send you more information, without any obligation."
-  },
-  {
-    source: "INP_CATERING",
-    label: "INP_CATERING",
-    help: "I would like to receive the catering options"
-  },
-  {
-    source: "INP_PHOTO_VIDEO",
-    label: "INP_PHOTO_VIDEO",
-    help: "I am interested in photo/video reports"
-  },
-
-  {
     source: "LOCATION",
     label: "LOCATION",
     help: "Location"
