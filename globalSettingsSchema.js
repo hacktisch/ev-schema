@@ -803,5 +803,54 @@ module.exports = [
         help: "Available tokens: [name] [email] [phone] [products]"
       }
     ]
+  },
+
+  {
+    tab: "additional_services",
+    source: "additional_service_description",
+    label: "Description above additional services (order step 3)",
+    type: "longtext",
+    help: "Description on top"
+  },
+  {
+    tab: "additional_services",
+    source: "additional_service_options",
+    label: "Additional services",
+    type: "array",
+    sub: [
+      {
+        source: "text",
+        label: "Text",
+        type: "longtext"
+      },
+      {
+        source: "image",
+        label: "Image",
+        type: "image",
+        accept: {
+          "image/jpeg": true,
+          "image/webp": "jpg",
+          "image/png": "jpg"
+        },
+        transforms: {
+          _original: {
+            width: 450,
+            height: 300
+          }
+        }
+      },
+
+      {
+        label: "Email to customer: Title",
+        source: "title",
+        type: "text"
+      },
+      {
+        label: "Email to customer: Message",
+        source: "body",
+        type: "markdown",
+        help: "Available tokens: [name] [email] [phone]"
+      }
+    ]
   }
 ];
