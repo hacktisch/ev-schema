@@ -70,6 +70,16 @@ const localeFieldsSet = [
     label: "INFO_ABOUT",
     help: "Request information about {{product}}"
   },
+   {
+    source: "INFO_GENERAL",
+    label: "INFO_GENERAL",
+    help: "Do you want your party to succeed?"
+  },
+  {
+    source: "INFO_WE",
+    label: "INFO_WE",
+    help: "Whatever your event or celebration, we are here to make your special day a truly memorable one."
+  },
   /*  {
     "source": "ORDER_DESC_CONCIERGE",
     "label": "ORDER_DESC_CONCIERGE",
