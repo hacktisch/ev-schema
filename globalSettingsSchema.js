@@ -793,7 +793,7 @@ module.exports = [
         label: "Message",
         source: "body",
         type: "markdown",
-        help: "Available tokens: [name] [email] [phone] [products]"
+        help: "Available tokens: [name] [email] [phone] [products] [affiliate_products]"
       }
     ]
   },
@@ -842,7 +842,7 @@ module.exports = [
         label: "Email to customer: Message",
         source: "body",
         type: "markdown",
-        help: "Available tokens: [name] [email] [phone]"
+        help: "Available tokens: [name] [email] [phone] [affiliate_products]"
       }
     ]
   }
