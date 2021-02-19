@@ -16,5 +16,6 @@ module.exports = {
 
 	user: require("./userSchema.js"),
 	file: require("./fileSchema.js"),
+	customer: require("./customerSchema.js"),
 	timestamp: require("./timestamp.js")
 };
