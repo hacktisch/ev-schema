@@ -18,7 +18,7 @@ module.exports = {
         quickCreate: true
     },
     props: {
-        sort: { field: "length(path)", order: "asc" }
+        sort: { field: "length(path)", order: "ASC" }
     }
 
     ///////////  validate: required

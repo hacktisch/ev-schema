@@ -29,7 +29,7 @@ module.exports = [
             inputType: "autocomplete"
         },
         props: {
-            sort: { field: "length(path)", order: "asc" }
+            sort: { field: "length(path)", order: "ASC" }
         },
 
         validate: ["required"]
@@ -44,7 +44,7 @@ module.exports = [
         },
         props: {
             resettable: true,
-            sort: { field: "weight", order: "asc" }
+            sort: { field: "weight", order: "ASC" }
         }
     },
     {

@@ -10,11 +10,13 @@ module.exports = [
         help:
             "Suppliers with a login to the CMS can submit revision proposals for their linked products",
         filter: {
-            role: "supplier"
+            role: "supplier",
+            status: 1
         },
         reference: {
             resource: "user",
-            optionText: "username"
+            optionText: "username",
+            inputType: "autocomplete"
         },
         props: {
             sort: { field: "username", order: "ASC" }
@@ -162,7 +164,7 @@ module.exports = [
             optionText: "text"
         },
         props: {
-            sort: { field: "weight", order: "asc" }
+            sort: { field: "weight", order: "ASC" }
         }
     },
     {
@@ -178,7 +180,7 @@ module.exports = [
             optionText: "text"
         },
         props: {
-            sort: { field: "weight", order: "asc" }
+            sort: { field: "weight", order: "ASC" }
         }
     },
     {
@@ -194,7 +196,7 @@ module.exports = [
             optionText: "text"
         },
         props: {
-            sort: { field: "weight", order: "asc" }
+            sort: { field: "weight", order: "ASC" }
         }
     },
 

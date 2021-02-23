@@ -144,7 +144,7 @@ module.exports = [
             optionText: "text"
         },
         props: {
-            sort: { field: "weight", order: "asc" }
+            sort: { field: "weight", order: "ASC" }
         }
     },
 
