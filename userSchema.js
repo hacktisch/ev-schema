@@ -1,8 +1,20 @@
+const { roles } = require("./structure");
+
 module.exports = [
     {
         source: "username",
         type: "text",
         label: "Username"
+    },
+    {
+        source: "role",
+        type: "select",
+        label: "Role",
+        choices: roles,
+        validate: ["required"],
+        props: {
+            defaultValue: "supplier"
+        }
     },
     {
         source: "gender",
@@ -18,7 +30,6 @@ module.exports = [
         props: {
             defaultValue: "human"
         },
-
         validate: ["required"],
         mode: "avatar",
         seed: "username"
@@ -34,6 +45,5 @@ module.exports = [
             }
         ]
     },
-
     require("./groups/changed.js")
 ];

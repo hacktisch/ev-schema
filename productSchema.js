@@ -3,6 +3,23 @@ module.exports = [
     require("./groups/pathReference.js"),
     require("./groups/published.js"),
     {
+        source: "supplier_id",
+        type: "reference",
+        label: "Supplier account",
+        help:
+            "Suppliers with a login to the CMS can submit revision proposals for their linked products",
+        filter: {
+            role: "supplier"
+        },
+        reference: {
+            resource: "user",
+            optionText: "username"
+        },
+        props: {
+            sort: { field: "username", order: "asc" }
+        }
+    },
+    {
         tab: "details",
         source: "lead",
         type: "longtext",

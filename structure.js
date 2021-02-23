@@ -6,5 +6,10 @@ module.exports = {
 		{ id: "occasion", name: "Occasions" },
 		{ id: "genre", name: "Genres" },
 		{ id: "region", name: "Regions" }
+	],
+	roles:[
+		{ id: "supplier", name: "Supplier" },
+		{ id: "editor", name: "Editor" },
+		{ id: "admin", name: "Admin" }
 	]
 };
