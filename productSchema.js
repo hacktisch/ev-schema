@@ -3,6 +3,7 @@ module.exports = [
     require("./groups/pathReference.js"),
     require("./groups/published.js"),
     {
+        tab: "main",
         source: "supplier_id",
         type: "reference",
         label: "Supplier account",
@@ -16,7 +17,7 @@ module.exports = [
             optionText: "username"
         },
         props: {
-            sort: { field: "username", order: "asc" }
+            sort: { field: "username", order: "ASC" }
         }
     },
     {
