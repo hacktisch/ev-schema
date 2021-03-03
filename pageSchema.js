@@ -50,6 +50,9 @@ module.exports = [
                     resource: "path",
                     optionText: "path",
                     inputType: "autocomplete"
+                },
+                props: {
+                    sort: { field: "length(path)", order: "ASC" }
                 }
 
                 ///////////  validate: required
@@ -70,6 +73,9 @@ module.exports = [
                             resource: "path",
                             optionText: "path",
                             inputType: "autocomplete"
+                        },
+                        props: {
+                            sort: { field: "length(path)", order: "ASC" }
                         }
 
                         ///////////  validate: required
