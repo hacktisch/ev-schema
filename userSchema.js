@@ -2,9 +2,16 @@ const { roles } = require("./structure");
 
 module.exports = [
     {
-        source: "username",
+        source: "name",
         type: "text",
-        label: "Username"
+        label: "Full name",
+        validate: ["required"]
+    },
+    {
+        source: "email",
+        type: "email",
+        label: "Email address",
+        validate: ["required"]
     },
     {
         source: "role",
