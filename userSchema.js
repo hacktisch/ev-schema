@@ -39,7 +39,7 @@ module.exports = [
         },
         validate: ["required"],
         mode: "avatar",
-        seed: "username"
+        seed: "name"
     },
     {
         source: "password",

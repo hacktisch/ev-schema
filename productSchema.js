@@ -15,11 +15,11 @@ module.exports = [
         },
         reference: {
             resource: "user",
-            optionText: "username",
+            optionText: "name",
             inputType: "autocomplete"
         },
         props: {
-            sort: { field: "username", order: "ASC" }
+            sort: { field: "name", order: "ASC" }
         }
     },
     {
