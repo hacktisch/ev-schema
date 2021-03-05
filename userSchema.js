@@ -11,7 +11,7 @@ module.exports = [
         source: "email",
         type: "email",
         label: "Email address",
-        validate: ["required"]
+        validate: ["email"]
     },
     {
         source: "role",
