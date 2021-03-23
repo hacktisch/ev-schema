@@ -585,7 +585,8 @@ module.exports = [
           "Twitter",
           "Youtube",
           "Instagram",
-          "Linkedin"
+          "Linkedin",
+          "Whatsapp"
         ].map(name => ({
           id: name.toLowerCase(),
           name,
