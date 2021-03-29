@@ -70,7 +70,7 @@ const localeFieldsSet = [
     label: "INFO_ABOUT",
     help: "Request information about {{product}}"
   },
-   {
+  {
     source: "INFO_GENERAL",
     label: "INFO_GENERAL",
     help: "Do you want your party to succeed?"
@@ -78,7 +78,8 @@ const localeFieldsSet = [
   {
     source: "INFO_WE",
     label: "INFO_WE",
-    help: "Whatever your event or celebration, we are here to make your special day a truly memorable one."
+    help:
+      "Whatever your event or celebration, we are here to make your special day a truly memorable one."
   },
   /*  {
     "source": "ORDER_DESC_CONCIERGE",
@@ -794,7 +795,20 @@ module.exports = [
         label: "Message",
         source: "body",
         type: "markdown",
-        help: "Available tokens: [name] [email] [phone] [products] [affiliate_products]"
+        help:
+          "Available tokens: [name] [email] [phone] [products] [affiliate_products]"
+      },
+      {
+        label: "SMS: 'From' name",
+        source: "sms_from",
+        type: "text"
+      },
+      {
+        label: "SMS: message",
+        source: "sms_body",
+        type: "longtext",
+        multiline: true,
+        help: "Available tokens: [name] [email] [phone]"
       }
     ]
   },
