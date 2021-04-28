@@ -521,11 +521,40 @@ const localeFieldsSet = [
     label: "CALL_ME",
     help: "Or let us call you back"
   },
-
   {
     source: "SEND",
     label: "SEND",
     help: "Send"
+  },
+  {
+    source: "DATE",
+    label: "DATE",
+    help: "Date"
+  },
+  {
+    source: "HOUR",
+    label: "HOUR",
+    help: "Hour"
+  },
+  {
+    source: "MINUTES",
+    label: "mins",
+    help: "mins"
+  },
+  {
+    source: "AGENDA_CHECK",
+    label: "AGENDA_CHECK",
+    help: "Check the availability of {{product}} here."
+  },
+  {
+    source: "AGENDA_AVAILABLE",
+    label: "AGENDA_AVAILABLE",
+    help: "Great! {{product}} is available from {{event_start}} till {{event_end}}."
+  },
+  {
+    source: "AGENDA_DISCLAIMER",
+    label: "AGENDA_DISCLAIMER",
+    help: "We will immediately contact them to be 100% sure"
   }
 ];
 
@@ -650,12 +679,27 @@ module.exports = [
   {
     tab: "general",
     source: "usps",
-    label: "Short USPS list (in sidebar and in order form)",
+    label: "Short USPs list (in sidebar and in order form)",
     type: "array",
     sub: [
       {
         source: "title",
         label: "USP Text",
+        type: "text",
+        multiline: true
+      }
+    ]
+  },
+
+  {
+    tab: "general",
+    source: "usps_product",
+    label: "USPs list on product page",
+    type: "array",
+    sub: [
+      {
+        source: "text",
+        label: "Text",
         type: "text",
         multiline: true
       }
