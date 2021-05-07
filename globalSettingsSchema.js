@@ -534,11 +534,11 @@ const localeFieldsSet = [
   {
     source: "HOUR",
     label: "HOUR",
-    help: "Hour"
+    help: "hour"
   },
   {
     source: "MINUTES",
-    label: "mins",
+    label: "MINUTES",
     help: "mins"
   },
   {

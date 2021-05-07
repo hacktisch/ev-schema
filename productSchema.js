@@ -88,6 +88,15 @@ module.exports = [
     },
     {
         tab: "catalog",
+        source: "price_until",
+        type: "number",
+        render: "price",
+        label: "Price until",
+        help:
+            "Maximum price in the price range",
+    },
+    {
+        tab: "catalog",
         source: "priceOnRequest",
         type: "boolean"
     },
