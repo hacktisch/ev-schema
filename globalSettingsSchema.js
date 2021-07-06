@@ -325,6 +325,11 @@ const localeFieldsSet = [
     help: "price on request"
   },
   {
+    source: "PRICE_ON_REQUEST_WARNING",
+    label: "PRICE_ON_REQUEST_WARNING",
+    help: "The prices of famous artists are usually between ... and ..."
+  },
+  {
     source: "SUITABLE_FOR",
     label: "SUITABLE_FOR",
     help: "Suitable for"
@@ -437,7 +442,7 @@ const localeFieldsSet = [
     help: "Operates in"
   },
 
-  {
+  /*{
     source: "HELP_POPUP_TITLE",
     label: "HELP_POPUP_TITLE",
     help: "Let us help you find what you need"
@@ -457,7 +462,7 @@ const localeFieldsSet = [
     source: "HELP_POPUP_NO",
     label: "HELP_POPUP_NO",
     help: "No, I prefer to look at the possibilities myself"
-  },
+  },*/
   {
     source: "SORT_BY",
     label: "SORT_BY",
@@ -549,7 +554,8 @@ const localeFieldsSet = [
   {
     source: "AGENDA_AVAILABLE",
     label: "AGENDA_AVAILABLE",
-    help: "Great! {{product}} is available from {{event_start}} till {{event_end}}."
+    help:
+      "Great! {{product}} is available from {{event_start}} till {{event_end}}."
   },
   {
     source: "AGENDA_DISCLAIMER",
