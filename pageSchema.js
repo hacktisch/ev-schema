@@ -155,5 +155,11 @@ module.exports = [
     },
 
     ...require("./groups/metaTags.js"),
+    {
+        tab: "meta",
+        source: "nocrawl",
+        label: "Tell search engines not to crawl this page",
+        type: "boolean"
+    },
     require("./groups/changed.js")
 ];
