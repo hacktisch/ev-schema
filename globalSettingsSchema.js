@@ -890,12 +890,12 @@ module.exports = [
           "image/webp": "jpg",
           "image/png": "jpg"
         },
-        transforms: {
+       /* transforms: {
           _original: {
             width: 450,
             height: 300
           }
-        }
+        }*/
       },
 
       {

@@ -22,12 +22,12 @@ module.exports = [
 					"image/webp": "jpg",
 					"image/png": "jpg"
 				},
-				transforms: {
+				/*transforms: {
 					_original: {
 						width: 1920,
 						height: 1080
 					}
-				}
+				}*/
 			}
 		]
 	},
@@ -51,12 +51,12 @@ module.exports = [
 				label: "Image",
 				type: "image",
 				accept: { "image/png": true, "image/webp": "png" },
-				transforms: {
+				/*transforms: {
 					_original: {
 						width: 300,
 						height: 300
 					}
-				}
+				}*/
 			},
 			{
 				source: "title",
@@ -96,12 +96,12 @@ module.exports = [
 				label: "Logo",
 				type: "image",
 				accept: { "image/png": true, "image/webp": "png" },
-				transforms: {
+				/*transforms: {
 					_original: {
 						width: 150,
 						height: 40
 					}
-				}
+				}*/
 			}
 		]
 	},

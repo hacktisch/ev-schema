@@ -11,12 +11,12 @@ module.exports = [
 			"image/webp": "jpg",
 			"image/png": "jpg"
 		},
-		transforms: {
+		/*transforms: {
 			_original: {
 				width: 1500,
 				height: 500
 			}
-		}
+		}*/
 	},
 	{ type: "markdown", source: "body", label: "Body text" },
 	{ type: "markdown", source: "contact_info", label: "Contact info" },
@@ -37,12 +37,12 @@ module.exports = [
 					"image/webp": "jpg",
 					"image/png": "jpg"
 				},
-				transforms: {
+				/*transforms: {
 					_original: {
 						width: 500,
 						height: 500
 					}
-				}
+				}*/
 			},
 			{
 				source: "name",

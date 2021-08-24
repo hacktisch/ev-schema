@@ -65,11 +65,11 @@ module.exports = [
             "image/webp": "png",
             "image/png": true
         },
-        transforms: {
+        /*transforms: {
             _original: {
                 width: 80,
                 height: 80
             }
-        }
+        }*/
     }
 ];

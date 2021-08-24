@@ -22,12 +22,12 @@ module.exports = [
                     "image/webp": "jpg",
                     "image/png": "jpg"
                 },
-                transforms: {
+                /*transforms: {
                     _original: {
                         width: 450,
                         height: 300
                     }
-                }
+                }*/
             },
             {
                 source: "title",
@@ -118,12 +118,12 @@ module.exports = [
                     "image/webp": "jpg",
                     "image/png": "jpg"
                 },
-                transforms: {
+                /*transforms: {
                     _original: {
                         width: 1920,
                         height: 1080
                     }
-                }
+                }*/
             }
         ]
     },

@@ -13,12 +13,12 @@ module.exports = [
         label: "Image",
         type: "image",
         accept: { "image/jpeg": true, "image/webp": "jpg", "image/png": "jpg" },
-        transforms: {
+        /*transforms: {
             _original: {
                 width: 1200,
                 height: 800
             }
-        }
+        }*/
     },
 
     ...require("./groups/metaTags.js"),
