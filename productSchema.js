@@ -157,7 +157,10 @@ module.exports = [
     {
         tab: "catalog",
         source: "isPartner",
-        type: "boolean"
+        type: "boolean",
+        props:{
+         warnWhen:[true]
+        }
     },
     {
         tab: "catalog",
@@ -220,7 +223,10 @@ module.exports = [
         tab: "meta",
         source: "nocrawl",
         label: "Tell search engines not to crawl this product",
-        type: "boolean"
+        type: "boolean",
+        props:{
+         warnWhen:[true]
+        }
     },
     require("./groups/changed.js")
 ];

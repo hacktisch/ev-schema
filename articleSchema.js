@@ -26,7 +26,10 @@ module.exports = [
         tab: "meta",
         source: "nocrawl",
         label: "Tell search engines not to crawl this article",
-        type: "boolean"
+        type: "boolean",
+        props:{
+         warnWhen:[true]
+        }
     },
     require("./groups/changed.js")
 ];

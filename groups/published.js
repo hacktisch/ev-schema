@@ -3,6 +3,7 @@ module.exports=    {
         source: "published",
         type: "boolean",
         props: {
-            defaultValue: true
+            defaultValue: true,
+             warnWhen:[false]
         }
     }

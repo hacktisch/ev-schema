@@ -134,7 +134,8 @@ module.exports = [
         type: "boolean",
         label: "Show product list and filters",
         props: {
-            defaultValue: true
+            defaultValue: true,
+
         }
     },
     {
@@ -159,7 +160,10 @@ module.exports = [
         tab: "meta",
         source: "nocrawl",
         label: "Tell search engines not to crawl this page",
-        type: "boolean"
+        type: "boolean",
+        props:{
+         warnWhen:[true]
+        }
     },
     require("./groups/changed.js")
 ];
