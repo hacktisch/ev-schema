@@ -699,39 +699,31 @@ module.exports = [
 
   {
     tab: "general",
-    source: "usps_product",
-    label: "USPs list on product page",
+    label: "Title for USP list on product page",
+    source: "usps_product_title",
+    type: "text"
+  },
+  {
+    tab: "general",
+    source: "usps_product_list",
+    label: "USP list on product page",
     type: "array",
-    min: 1,
-    max: 1,
     sub: [
       {
-        label: "Title",
-        source: "title",
-        type: "text"
+        label: "Icon",
+        source: "image",
+        type: "image",
+        accept: {
+          "image/svg+xml": true,
+          "image/jpeg": true,
+          "image/webp": "png",
+          "image/png": true
+        }
       },
       {
-        source: "usps",
-        label: "",
-        type: "array",
-        sub: [
-          {
-            label: "Icon",
-            source: "image",
-            type: "image",
-            accept: {
-              "image/svg+xml": true,
-              "image/jpeg": true,
-              "image/webp": "png",
-              "image/png": true
-            }
-          },
-          {
-            label: "Text",
-            source: "text",
-            type: "text"
-          }
-        ]
+        label: "Text",
+        source: "text",
+        type: "text"
       }
     ]
   },
