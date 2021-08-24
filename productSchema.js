@@ -40,12 +40,12 @@ module.exports = [
         source: "mainImage",
         type: "image",
         accept: { "image/jpeg": true, "image/webp": "jpg", "image/png": "jpg" },
-        transforms: {
+        /*transforms: {
             _original: {
                 width: 700,
                 height: 470
             }
-        }
+        }*/
         /////////validate: required
     },
 
@@ -70,12 +70,12 @@ module.exports = [
                     "image/webp": "jpg",
                     "image/png": "jpg"
                 },
-                transforms: {
+                /*transforms: {
                     _original: {
                         width: 700,
                         height: 470
                     }
-                }
+                }*/
             }
         ]
     },
