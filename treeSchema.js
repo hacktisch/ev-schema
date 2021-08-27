@@ -31,7 +31,6 @@ module.exports = [
         props: {
             sort: { field: "length(path)", order: "ASC" }
         },
-
         validate: ["required"]
     },
     {

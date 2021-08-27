@@ -710,14 +710,13 @@ module.exports = [
     type: "array",
     sub: [
       {
+        source: "icon",
+        type: "reference",
         label: "Icon",
-        source: "image",
-        type: "image",
-        accept: {
-          "image/svg+xml": true,
-          "image/jpeg": true,
-          "image/webp": "png",
-          "image/png": true
+        reference: {
+          resource: "icon",
+          inputType: "autocomplete",
+          images: true
         }
       },
       {
