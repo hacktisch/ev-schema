@@ -84,7 +84,7 @@ module.exports = [
 		type: "text",
 		 multiline:true,
 	},
-	{
+	/*{
 		tab: "logo_bar",
 
 		source: "logos",
@@ -96,15 +96,10 @@ module.exports = [
 				label: "Logo",
 				type: "image",
 				accept: { "image/png": true, "image/webp": "png" },
-				/*transforms: {
-					_original: {
-						width: 150,
-						height: 40
-					}
-				}*/
+				
 			}
 		]
-	},
+	},*/
 	{
 		tab: "text",
 
