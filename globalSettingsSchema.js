@@ -561,6 +561,16 @@ const localeFieldsSet = [
     source: "AGENDA_DISCLAIMER",
     label: "AGENDA_DISCLAIMER",
     help: "We will immediately contact them to be 100% sure"
+  },
+  {
+    source: "AGENDA_AVAILABLE_FAMOUS",
+    label: "AGENDA_AVAILABLE_FAMOUS",
+    help: "(Same as above, for famous artists)"
+  },
+  {
+    source: "AGENDA_DISCLAIMER_FAMOUS",
+    label: "AGENDA_DISCLAIMER_FAMOUS",
+    help: "(Same as above, for famous artists)"
   }
 ];
 
