@@ -39,7 +39,7 @@ module.exports = [
         label: "Main image",
         source: "mainImage",
         type: "image",
-        accept: { "image/jpeg": true, "image/webp": "jpg", "image/png": "jpg" },
+        accept: { "image/jpeg": true, "image/webp": "jpg", "image/png": "jpg" }
         /*transforms: {
             _original: {
                 width: 700,
@@ -69,7 +69,7 @@ module.exports = [
                     "image/jpeg": true,
                     "image/webp": "jpg",
                     "image/png": "jpg"
-                },
+                }
                 /*transforms: {
                     _original: {
                         width: 700,
@@ -92,8 +92,7 @@ module.exports = [
         type: "number",
         render: "price",
         label: "Price until",
-        help:
-            "Maximum price in the price range",
+        help: "Maximum price in the price range"
     },
     {
         tab: "catalog",
@@ -158,8 +157,8 @@ module.exports = [
         tab: "catalog",
         source: "isPartner",
         type: "boolean",
-        props:{
-         warnWhen:[true]
+        props: {
+            warnWhen: [true]
         }
     },
     {
@@ -212,6 +211,27 @@ module.exports = [
         }
     },
 
+    {
+        tab: "catalog",
+        source: "agency",
+        label: "Evenses agency",
+        type: "array",
+        min: 1,
+        max: 1,
+        sub: [
+            {
+                source: "listed",
+                label: "Listed on agency website",
+                type: "boolean"
+            },
+            {
+                source: "exclusive",
+                label: "Exclusively available via our agency",
+                type: "boolean"
+            }
+        ]
+    },
+
     /*
  /*{
         source:"related",
@@ -219,13 +239,13 @@ module.exports = [
     },*/
 
     ...require("./groups/metaTags.js"),
-     {
+    {
         tab: "meta",
         source: "nocrawl",
         label: "Tell search engines not to crawl this product",
         type: "boolean",
-        props:{
-         warnWhen:[true]
+        props: {
+            warnWhen: [true]
         }
     },
     require("./groups/changed.js")
