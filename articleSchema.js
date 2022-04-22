@@ -8,6 +8,7 @@ module.exports = [
         label: "Article text"
     },
 
+
     {
         source: "image",
         label: "Image",
