@@ -238,6 +238,12 @@ module.exports = [
         refs
     },*/
 
+    {
+        tab: "meta",
+        label:"Evobooker Product ID",
+        source: "evo_id",
+        type: "number"
+    },
     ...require("./groups/metaTags.js"),
     {
         tab: "meta",
