@@ -766,6 +766,13 @@ module.exports = [
   },
   {
     tab: "settings",
+    source: "constants:phone_machine",
+    label: "Phone number machine format",
+    type: "text",
+    help: "with country code, no spaces or dashes. no plus. (e.g. 31012345678)"
+  },
+  {
+    tab: "settings",
     source: "constants:currency",
     label: "ISO 4217 Currency code",
     type: "text"
