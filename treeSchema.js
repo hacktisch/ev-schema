@@ -16,7 +16,8 @@ module.exports = [{
     }, props: {
         sort: {field: "length(path)", order: "ASC"}
     }, validate: ["required"]
-}, {
+},
+    {
     source: "parent", type: "reference", label: "Parent", reference: {
         resource: "tree", optionText: "text"
     }, props: {
@@ -43,6 +44,9 @@ module.exports = [{
         label: "Trickle Down",
         help: "Settings which, unless overwritten here, are inherited from parent nodes according to the following hierarchy: (1) Global website settings > (2) Top category > (3) Subcategories > (4) Product page",
         type: "group",
+        mode: "array",
+        min: 1,
+        max: 1,
         sub: [{
 
             source: "deals", label: "Alex block", type: "array", max: 3, sub: [{
