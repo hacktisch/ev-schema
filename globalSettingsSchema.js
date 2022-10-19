@@ -826,12 +826,12 @@ module.exports = [
     help: "search"
   },
 
-  {
+  /*{
     tab: "settings",
     source: "constants:ua",
     label: "Google Analytics UA code",
     type: "text"
-  },
+  },*/
 
   {
     tab: "address",
