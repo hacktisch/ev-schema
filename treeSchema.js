@@ -43,8 +43,8 @@ module.exports = [{
         source: "trickledowns",
         label: "Trickle Down",
         help: "Settings which, unless overwritten here, are inherited from parent nodes according to the following hierarchy: (1) Global website settings > (2) Top category > (3) Subcategories > (4) Product page",
-        type: "group",
-        mode: "array",
+        type: "array",
+        mode: "group",
         min: 1,
         max: 1,
         sub: [{
