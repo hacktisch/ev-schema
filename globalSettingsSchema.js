@@ -751,6 +751,9 @@ module.exports = [
       { id: "paypal", name: "Paypal" }
     ]
   },
+
+  require("./groups/inherit.js"),
+
   {
     tab: "settings",
     source: "constants:siteName",

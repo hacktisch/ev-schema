@@ -244,6 +244,9 @@ module.exports = [
         source: "evo_id",
         type: "number"
     },
+
+    require("./groups/inherit.js"),
+
     ...require("./groups/metaTags.js"),
     {
         tab: "meta",
