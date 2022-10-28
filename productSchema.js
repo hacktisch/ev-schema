@@ -244,8 +244,10 @@ module.exports = [
         source: "evo_id",
         type: "number"
     },
-
-    require("./groups/inherit.js"),
+    {
+        ...require("./groups/inherit.js"),
+        tab: "details",
+    },
 
     ...require("./groups/metaTags.js"),
     {

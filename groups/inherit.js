@@ -7,7 +7,7 @@ module.exports = {
     min: 1,
     max: 1,
     sub: [{
-        source: "deals", label: "Alex block", type: "array", max: 3, sub: [{
+        source: "deals", label: "Upsells", type: "array", max: 3, sub: [{
             source: "product_id", type: "reference", label: "Product", reference: {
                 resource: "product", optionText: "title", inputType: "autocomplete"
             }

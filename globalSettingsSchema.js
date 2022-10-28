@@ -752,7 +752,10 @@ module.exports = [
     ]
   },
 
-  require("./groups/inherit.js"),
+  {
+    ...require("./groups/inherit.js"),
+    tab: "general",
+  },
 
   {
     tab: "settings",
