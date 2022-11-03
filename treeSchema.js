@@ -16,8 +16,7 @@ module.exports = [{
     }, props: {
         sort: {field: "length(path)", order: "ASC"}
     }, validate: ["required"]
-},
-    {
+}, {
     source: "parent", type: "reference", label: "Parent", reference: {
         resource: "tree", optionText: "text"
     }, props: {
@@ -28,15 +27,18 @@ module.exports = [{
         defaultValue: 0
     }
 }, {
-    label: "Icon", source: "image", type: "image", accept: {
+    label: "Icon (old site)", source: "image", type: "image", accept: {
         "image/svg+xml": true, "image/jpeg": true, "image/webp": "png", "image/png": true
     }, /*transforms: {
             _original: {
                 width: 80,
                 height: 80
             }
-        }*/
-},
-    require("./groups/inherit.js"),
+        }todo remove*/
+}, {
+    source: "icon", type: "reference", label: "Icon", reference: {
+        resource: "icon", inputType: "autocomplete", images: true
+    }
+}, require("./groups/inherit.js"),
 
-    ];
+];
