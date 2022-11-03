@@ -96,6 +96,14 @@ module.exports = [
     },
     {
         tab: "catalog",
+        source: "upsell_price",
+        label:"Upsell price",
+        type: "number",
+        render: "price",
+        help: "This is only relevant if this product is configured as an upsell product. When omitted, the until-price will be used instead."
+    },
+    {
+        tab: "catalog",
         source: "priceOnRequest",
         type: "boolean"
     },
