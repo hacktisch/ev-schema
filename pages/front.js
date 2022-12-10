@@ -2,6 +2,15 @@ module.exports = [
 	{ tab: "banner", source: "banner_title", label: "Title", type: "text" },
 	{
 		tab: "banner",
+		source: "banner_sec_title",
+		label: "Secondary Title",
+		type: "markdown",
+	 	props: {
+			small: true
+		}
+	},
+	{
+		tab: "banner",
 		source: "banner_desc",
 		label: "Description",
 		type: "longtext",

@@ -1,8 +1,23 @@
 const localeFieldsSet = [
   {
+    source: "ABOUT_US_MENU",
+    label: "ABOUT_US_MENU",
+    help: "About us"
+  },
+  {
+    source: "ENTERTAINMENT_MENU",
+    label: "ENTERTAINMENT_MENU",
+    help: "Entertainment"
+  },
+  {
     source: "TIMES_REQUESTED",
     label: "TIMES_REQUESTED",
     help: "Requested %AMOUNT% times"
+  },
+  {
+    source:"YOUR_DISCOUNT",
+    label:"YOUR_DISCOUNT",
+    help:"Your discount"
   },
   {
     source: "CORONABAR_SENTENCE",
@@ -193,6 +208,16 @@ const localeFieldsSet = [
     label: "RATING_TEXT",
     help: "{{rating}} out of 5 stars"
   },
+  {
+    source: "AMT_STARS",
+    label: "AMT_STARS",
+    help: "{{amount}} stars"
+  }, {
+    source: "AMT_STARS_1",
+    label: "AMT_STARS_1",
+    help: "1 star"
+  },
+
   {
     source: "BUDGET",
     label: "BUDGET",
@@ -571,8 +596,41 @@ const localeFieldsSet = [
     source: "AGENDA_DISCLAIMER_FAMOUS",
     label: "AGENDA_DISCLAIMER_FAMOUS",
     help: "(Same as above, for famous artists)"
+  },
+  {
+    source:"FAQS",
+    help:"FAQs"
+  },
+  {
+    source:"SEE_ALL_REVIEWS",
+    help:"+ see all reviews"
+  },
+  {
+    source:"SEND_MESSAGE",
+    help:"Send message"
+  },
+  {
+    source: "ABOUT",
+    help: "About"
+  },
+  {
+    source: "ABOUT_SUBJECT",
+    help: "About {{subject}}"
+  },
+  {
+    source:"SOCIAL_MEDIA",
+    help:"Social media"
+  },
+  {
+    source:"BACK_TO_HOME",
+    help:"Back to home"
   }
-];
+].map(r=>{
+  if(!r.label){
+    r.label=r.source;
+  }
+  return r;
+});
 
 const localeFields = localeFieldsSet.map(g => ({
   ...g,
