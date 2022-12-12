@@ -209,6 +209,10 @@ const localeFieldsSet = [
     help: "{{rating}} out of 5 stars"
   },
   {
+    source:"OUT_OF_MAX",
+    help:"out of {{max}}"
+  },
+  {
     source: "AMT_STARS",
     label: "AMT_STARS",
     help: "{{amount}} stars"
@@ -624,6 +628,34 @@ const localeFieldsSet = [
   {
     source:"BACK_TO_HOME",
     help:"Back to home"
+  },
+  {
+    source:"SAVE_MORE",
+    help:"Save more"
+  },
+  {
+    source:"BOOK_X_ITEMS",
+    help:"Book {{amount}} items: get {{discount}} discount"
+  },
+  {
+    source:"HAPPY_CUSTOMERS",
+    help:"Our happy customers"
+  },
+  {
+    source:"",
+    help:""
+  },
+  {
+    source:"",
+    help:""
+  },
+  {
+    source:"",
+    help:""
+  },
+  {
+    source:"",
+    help:""
   }
 ].map(r=>{
   if(!r.label){
@@ -808,6 +840,20 @@ module.exports = [
       { id: "creditcard", name: "creditcard" },
       { id: "paypal", name: "Paypal" }
     ]
+  },
+
+
+
+  {
+    source: "discount",
+    label: "Discount deals",
+    help: "Price reduction per number of discount eligible products added. First entry here = 1 product added, the second = 2 products added, etc...",
+    type: "array",
+    sub: [{
+      source: "amount",
+      label: "Discount",
+      type: "number"
+    },]
   },
 
   {
