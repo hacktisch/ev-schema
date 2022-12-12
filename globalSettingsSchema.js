@@ -641,22 +641,6 @@ const localeFieldsSet = [
     source:"HAPPY_CUSTOMERS",
     help:"Our happy customers"
   },
-  {
-    source:"",
-    help:""
-  },
-  {
-    source:"",
-    help:""
-  },
-  {
-    source:"",
-    help:""
-  },
-  {
-    source:"",
-    help:""
-  }
 ].map(r=>{
   if(!r.label){
     r.label=r.source;
@@ -849,6 +833,7 @@ module.exports = [
     label: "Discount deals",
     help: "Price reduction per number of discount eligible products added. First entry here = 1 product added, the second = 2 products added, etc...",
     type: "array",
+    tab: "general",
     sub: [{
       source: "amount",
       label: "Discount",
