@@ -641,6 +641,10 @@ const localeFieldsSet = [
     source:"HAPPY_CUSTOMERS",
     help:"Our happy customers"
   },
+  {
+    source:"DISCOUNT_ADDED",
+    help:"Added to your request. Your discount is now {{total_discount}}."
+  }
 ].map(r=>{
   if(!r.label){
     r.label=r.source;
