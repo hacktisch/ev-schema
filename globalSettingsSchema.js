@@ -169,6 +169,10 @@ const localeFieldsSet = [
     help: "We accept {{method}}"
   },
   {
+    source:"SEARCH_FILTER",
+    help:"Search filter"
+  },
+  {
     source: "FLT_CATEGORY_TOP",
     label: "FLT_CATEGORY_TOP",
     help: "Type entertainment"
@@ -652,6 +656,10 @@ const localeFieldsSet = [
   {
     source:"GOTO_REQUEST",
     help:"Proceed to request"
+  },
+  {
+    source:"FILL_MISSING_INFO",
+    help:"Please fill out the remaining fields"
   }
 ].map(r=>{
   if(!r.label){
