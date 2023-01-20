@@ -664,7 +664,11 @@ const localeFieldsSet = [
   {
     source:"FILL_MISSING_INFO",
     help:"Please fill out the remaining fields"
-  }
+  },
+  {
+    source:"REMOVE_ITEM",
+    help:"Remove from request"
+  },
 ].map(r=>{
   if(!r.label){
     r.label=r.source;
