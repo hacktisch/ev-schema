@@ -634,6 +634,10 @@ const localeFieldsSet = [
     help:"Back to home"
   },
   {
+    source:"BACK",
+    help:"Back"
+  },
+  {
     source:"SAVE_MORE",
     help:"Save more"
   },
