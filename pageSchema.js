@@ -159,14 +159,16 @@ module.exports = [
         source: "products",
         label:"Hand picked product selection",
         help:"You can select a custom list of products. These will appear above the search results in case also a category is specified.",
-        type: "reference",
-        multiple: "true",
-        sortable: "weight",
-        reference: {
-            resource: "product",
-            optionText: "title",
-            inputType: "autocomplete"
-        }
+
+
+         type: "array",
+
+        sub: [{
+            source: "product_id", type: "reference", label: "Product", reference: {
+                resource: "product", optionText: "title", inputType: "autocomplete"
+            }
+        },]
+
     },
 
     ...require("./groups/metaTags.js"),
