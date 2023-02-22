@@ -154,6 +154,19 @@ module.exports = [
             sort: { field: "weight", order: "ASC" }
         }
     },
+    {
+        tab:"catalog",
+        source: "products",
+        label:"Hand picked product selection",
+        help:"You can select a custom list of products. These will appear above the search results in case also a category is specified.",
+        type: "reference",
+        multiple: "true",
+        reference: {
+            resource: "product",
+            optionText: "title",
+            inputType: "autocomplete"
+        }
+    },
 
     ...require("./groups/metaTags.js"),
     {
