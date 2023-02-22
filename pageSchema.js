@@ -161,6 +161,7 @@ module.exports = [
         help:"You can select a custom list of products. These will appear above the search results in case also a category is specified.",
         type: "reference",
         multiple: "true",
+        sortable: "weight",
         reference: {
             resource: "product",
             optionText: "title",
