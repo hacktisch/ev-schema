@@ -669,6 +669,24 @@ const localeFieldsSet = [
     source:"REMOVE_ITEM",
     help:"Remove from request"
   },
+  {
+    source:"COMMUNICATION_PREFERENCE",
+    help:"What are your preferred means of communication?"
+  },
+  {
+    source:"BY_TELEPHONE",
+    help:"By telephone"
+  },
+  {
+    source:"BY_WHATSAPP",
+    help:"By Whatsapp"
+  },
+  {
+    source:"BY_EMAIL",
+    help:"Via email"
+  }
+
+
 ].map(r=>{
   if(!r.label){
     r.label=r.source;
