@@ -570,6 +570,19 @@ const localeFieldsSet = [
     help: "Date"
   },
   {
+    source: "YEAR",
+    help: "Year"
+  },
+  {
+    source: "MONTH",
+    help: "Month"
+  },
+  {
+    source: "DAY",
+    help: "Day"
+  },
+
+  {
     source: "HOUR",
     label: "HOUR",
     help: "hour"
