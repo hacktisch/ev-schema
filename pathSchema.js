@@ -7,7 +7,8 @@ module.exports = [
 			"required",
 			{
 				type: "regex",
-				pattern: '^[a-zA-Z0-9-]([/]?[a-zA-Z0-9-]+)*$|^https://(.+)$',
+				//pattern: '^[a-zA-Z0-9-]([/]?[a-zA-Z0-9-]+)*$|^https://(.+)$',
+				pattern:'^[a-zA-Z0-9\u00C0-\u00FF-]([/]?[a-zA-Z0-9\u00C0-\u00FF-]+)*$|^https://(.+)$',
 				message:
 					"Internal paths: Only alphanumerical characters and hyphens allowed. Do not start or end with a slash. Double slashes (//) not allowed. External paths are only allowed if they start with https://"
 			}
