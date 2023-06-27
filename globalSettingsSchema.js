@@ -697,7 +697,33 @@ const localeFieldsSet = [
   {
     source:"BY_EMAIL",
     help:"Via email"
+  },
+  {
+    source:"YOUR_REQUEST",
+    help:"Your request"
+  },
+  {
+    source:"REQUEST_STEP1",
+    help:"Your contact details"
+  },
+  {
+    source:"REQUEST_STEP2",
+    help:"Event specifications"
+  },
+  {
+    source:"REQUEST_STEP3",
+    help:"Special offers"
+  },
+  {
+    source:"PROCEED",
+    help:"Proceed"
+  },
+  {
+    source:"INCOMPLETE",
+    help:"Incomplete"
   }
+
+
 
 
 ].map(r=>{
