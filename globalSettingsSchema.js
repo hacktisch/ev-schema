@@ -372,6 +372,10 @@ const localeFieldsSet = [
     label: "CHECK_AV",
     help: "Check availability"
   },
+    {
+    source: "REQUEST_BTN",
+    help: "Request"
+  },
   {
     source: "CATEGORY",
     label: "CATEGORY",
