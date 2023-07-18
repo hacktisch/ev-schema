@@ -13,6 +13,7 @@ module.exports = {
 	request: require("./pages/request.js"),
 	blog: require("./pages/blog.js"),
 	partners: require("./pages/partners.js"),
+	references: require("./pages/references.js"),
 
 	user: require("./userSchema.js"),
 	file: require("./fileSchema.js"),

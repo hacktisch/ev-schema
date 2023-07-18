@@ -1,4 +1,4 @@
-const {menus} = require("./structure");
+const { menus } = require("./structure");
 
 module.exports = [{
     source: "root", type: "select", label: "Tree", choices: menus,
@@ -6,7 +6,6 @@ module.exports = [{
     validate: ["required"]
 }, {
     source: "text", type: "text", label: "Shown text",
-
     validate: ["required"]
 }, {
     source: "path_id", type: "reference", label: "Path", filter: {
@@ -14,31 +13,27 @@ module.exports = [{
     }, reference: {
         resource: "path", optionText: "path", inputType: "autocomplete"
     }, props: {
-        sort: {field: "length(path)", order: "ASC"}
+        sort: { field: "length(path)", order: "ASC" }
     }, validate: ["required"]
 }, {
     source: "parent", type: "reference", label: "Parent", reference: {
         resource: "tree", optionText: "text"
     }, props: {
-        resettable: true, sort: {field: "weight", order: "ASC"}
+        resettable: true, sort: { field: "weight", order: "ASC" }
     }
 }, {
     source: "weight", type: "number", validate: ["required"], props: {
         defaultValue: 0
     }
 }, {
-    label: "Icon (old site)", source: "image", type: "image", accept: {
-        "image/svg+xml": true, "image/jpeg": true, "image/webp": "png", "image/png": true
-    }, /*transforms: {
-            _original: {
-                width: 80,
-                height: 80
-            }
-        }todo remove*/
-}, {
     source: "icon", type: "reference", label: "Icon", reference: {
         resource: "icon", inputType: "autocomplete", images: true
-    }
+    },
+
+}, {
+    source: "priceWarn",
+    label: "Show price warning for products in this category",
+    type: "boolean"
 }, require("./groups/inherit.js"),
 
 ];
