@@ -19,7 +19,8 @@ module.exports = [
 
             {
                 source: "title",
-                type: "text"
+                type: "text",
+                label:"Title"
             },
             {
                 source: "body",
@@ -28,6 +29,7 @@ module.exports = [
             },
             {
                 source: "slides",
+                label:"Images and videos",
                 type: "array",
                 mode: "mediaplayer",
                 xor: true,
