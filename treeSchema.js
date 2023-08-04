@@ -28,8 +28,7 @@ module.exports = [{
 }, {
     source: "icon", type: "reference", label: "Icon", reference: {
         resource: "icon", inputType: "autocomplete", images: true
-    },
-
+    }
 }, {
     source: "priceWarn",
     label: "Show price warning for products in this category",

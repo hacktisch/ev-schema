@@ -822,7 +822,12 @@ module.exports = [
     type: "markdown",
     label: "Extra links in footer"
   },
-
+  {
+    tab: "general",
+    source: "no_results",
+    type: "markdown",
+    label: "No search results"
+  },
   {
     tab: "general",
     source: "usp_quality",
