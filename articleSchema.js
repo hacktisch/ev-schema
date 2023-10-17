@@ -5,7 +5,7 @@ module.exports = [
     {
 
         source: "knowledge_base",
-        label: "Check if this article must be in the knowledge base",
+        label: "This article is for the knowledge base",
         type: "boolean"
     },
     {
