@@ -3,6 +3,12 @@ module.exports = [
     require("./groups/pathReference.js"),
     require("./groups/published.js"),
     {
+
+        source: "knowledge_base",
+        label: "Check if this article must be in the knowledge base",
+        type: "boolean"
+    },
+    {
         source: "body",
         type: "markdown",
         label: "Article text"

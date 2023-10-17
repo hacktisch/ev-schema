@@ -2,6 +2,21 @@ module.exports = [
     require("./groups/title.js"),
     require("./groups/pathReference.js"),
     require("./groups/published.js"),
+
+
+    {
+        tab: "details",
+        source: "intro_title",
+        type: "text",
+        label:"Intro title"
+    },
+    {
+        tab: "details",
+        source: "intro_text",
+        type: "markdown",
+        label: "Intro text"
+    },
+
     {
         tab: "details",
         source: "body",
