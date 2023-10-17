@@ -12,6 +12,7 @@ module.exports = {
 	notfound: require("./pages/notfound.js"),
 	request: require("./pages/request.js"),
 	blog: require("./pages/blog.js"),
+	knowledge_base: require("./pages/knowledge_base.js"),
 	partners: require("./pages/partners.js"),
 	references: require("./pages/references.js"),
 
