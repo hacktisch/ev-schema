@@ -12,7 +12,7 @@ module.exports = [
     },
     {
         tab: "details",
-        source: "intro_text",
+        source: "intro_body",
         type: "markdown",
         label: "Intro text",
         props: {
