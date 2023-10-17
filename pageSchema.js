@@ -14,7 +14,10 @@ module.exports = [
         tab: "details",
         source: "intro_text",
         type: "markdown",
-        label: "Intro text"
+        label: "Intro text",
+        props: {
+			small: true
+		}
     },
 
     {
