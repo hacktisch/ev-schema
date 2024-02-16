@@ -417,6 +417,11 @@ const localeFieldsSet = [
     help: "Phone number"
   },
   {
+    source: "INP_MOBILE_PHONE",
+    label: "INP_MOBILE_PHONE",
+    help: "Mobile phone number"
+  },
+  {
     source: "INP_DATE",
     label: "INP_DATE",
     help: "Date of your event"
