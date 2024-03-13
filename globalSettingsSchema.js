@@ -15,9 +15,9 @@ const localeFieldsSet = [
     help: "Requested %AMOUNT% times"
   },
   {
-    source:"YOUR_DISCOUNT",
-    label:"YOUR_DISCOUNT",
-    help:"Your discount"
+    source: "YOUR_DISCOUNT",
+    label: "YOUR_DISCOUNT",
+    help: "Your discount"
   },
   {
     source: "CORONABAR_SENTENCE",
@@ -169,8 +169,8 @@ const localeFieldsSet = [
     help: "We accept {{method}}"
   },
   {
-    source:"SEARCH_FILTER",
-    help:"Search filter"
+    source: "SEARCH_FILTER",
+    help: "Search filter"
   },
   {
     source: "FLT_CATEGORY_TOP",
@@ -213,8 +213,8 @@ const localeFieldsSet = [
     help: "{{rating}} out of 5 stars"
   },
   {
-    source:"OUT_OF_MAX",
-    help:"out of {{max}}"
+    source: "OUT_OF_MAX",
+    help: "out of {{max}}"
   },
   {
     source: "AMT_STARS",
@@ -372,7 +372,7 @@ const localeFieldsSet = [
     label: "CHECK_AV",
     help: "Check availability"
   },
-    {
+  {
     source: "REQUEST_BTN",
     help: "Request"
   },
@@ -628,16 +628,16 @@ const localeFieldsSet = [
     help: "(Same as above, for famous artists)"
   },
   {
-    source:"FAQS",
-    help:"FAQs"
+    source: "FAQS",
+    help: "FAQs"
   },
   {
-    source:"SEE_ALL_REVIEWS",
-    help:"+ see all reviews"
+    source: "SEE_ALL_REVIEWS",
+    help: "+ see all reviews"
   },
   {
-    source:"SEND_MESSAGE",
-    help:"Send message"
+    source: "SEND_MESSAGE",
+    help: "Send message"
   },
   {
     source: "ABOUT",
@@ -648,97 +648,107 @@ const localeFieldsSet = [
     help: "About {{subject}}"
   },
   {
-    source:"SOCIAL_MEDIA",
-    help:"Social media"
+    source: "SOCIAL_MEDIA",
+    help: "Social media"
   },
   {
-    source:"BACK_TO_HOME",
-    help:"Back to home"
+    source: "BACK_TO_HOME",
+    help: "Back to home"
   },
   {
-    source:"BACK",
-    help:"Back"
+    source: "BACK",
+    help: "Back"
   },
   {
-    source:"SAVE_MORE",
-    help:"Save more"
+    source: "SAVE_MORE",
+    help: "Save more"
   },
   {
-    source:"BOOK_X_ITEMS",
-    help:"Book {{amount}} items: get {{discount}} discount"
+    source: "BOOK_X_ITEMS",
+    help: "Book {{amount}} items: get {{discount}} discount"
   },
   {
-    source:"HAPPY_CUSTOMERS",
-    help:"Our happy customers"
+    source: "HAPPY_CUSTOMERS",
+    help: "Our happy customers"
   },
   {
-    source:"PRODUCT_ADDED",
-    help:"Added to your request."
+    source: "PRODUCT_ADDED",
+    help: "Added to your request."
   },
   {
-    source:"DISCOUNT_ADDED",
-    help:"Your discount is now {{total_discount}}."
+    source: "DISCOUNT_ADDED",
+    help: "Your discount is now {{total_discount}}."
   },
   {
-    source:"GOTO_REQUEST",
-    help:"Proceed to request"
+    source: "GOTO_REQUEST",
+    help: "Proceed to request"
   },
   {
-    source:"FILL_MISSING_INFO",
-    help:"Please fill out the remaining fields"
+    source: "FILL_MISSING_INFO",
+    help: "Please fill out the remaining fields"
   },
   {
-    source:"REMOVE_ITEM",
-    help:"Remove from request"
+    source: "REMOVE_ITEM",
+    help: "Remove from request"
   },
   {
-    source:"COMMUNICATION_PREFERENCE",
-    help:"What are your preferred means of communication?"
+    source: "COMMUNICATION_PREFERENCE",
+    help: "What are your preferred means of communication?"
   },
   {
-    source:"BY_TELEPHONE",
-    help:"By telephone"
+    source: "BY_TELEPHONE",
+    help: "By telephone"
   },
   {
-    source:"BY_WHATSAPP",
-    help:"By Whatsapp"
+    source: "BY_WHATSAPP",
+    help: "By Whatsapp"
   },
   {
-    source:"BY_EMAIL",
-    help:"Via email"
+    source: "BY_EMAIL",
+    help: "Via email"
   },
   {
-    source:"YOUR_REQUEST",
-    help:"Your request"
+    source: "YOUR_REQUEST",
+    help: "Your request"
   },
   {
-    source:"REQUEST_STEP1",
-    help:"Your contact details"
+    source: "REQUEST_STEP1",
+    help: "Your contact details"
   },
   {
-    source:"REQUEST_STEP2",
-    help:"Event specifications"
+    source: "REQUEST_STEP2",
+    help: "Event specifications"
   },
   {
-    source:"REQUEST_STEP3",
-    help:"Special offers"
+    source: "REQUEST_STEP3",
+    help: "Special offers"
   },
   {
-    source:"PROCEED",
-    help:"Proceed"
+    source: "PROCEED",
+    help: "Proceed"
   },
   {
-    source:"INCOMPLETE",
-    help:"Incomplete"
+    source: "INCOMPLETE",
+    help: "Incomplete"
+  },
+
+
+  {
+    source: "AUTO_OFFER_TITLE",
+    help: "Receive a proposal immediately"
+  },
+  {
+    source: "AUTO_OFFER_CHOOSE",
+    help: "Select your preferences and receive a quote now! (without obligation)"
+  },
+  {
+    source: "WAIT_AUTO_OFFER",
+    help: "Your quote is being worked on, please wait a moment..."
   }
 
-
-
-  
-
-].map(r=>{
-  if(!r.label){
-    r.label=r.source;
+].map(r => {
+  if (!r.label) {
+    r.label = r.source;
   }
   return r;
 });
