@@ -744,6 +744,14 @@ const localeFieldsSet = [
   {
     source: "WAIT_AUTO_OFFER",
     help: "Your quote is being worked on, please wait a moment..."
+  },
+  {
+    source:"PRIVATE",
+    help:"Private"
+  },
+  {
+    source:"COMPANY",
+    help:"Company"
   }
 
 ].map(r => {
