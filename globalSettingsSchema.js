@@ -484,6 +484,16 @@ const localeFieldsSet = [
     help: "Operates in"
   },
 
+
+  {
+    source: "DIST_UNTIL",
+    help: "Within {{dist}} km"
+  },
+  {
+    source: "DIST_FURTHER",
+    help: "Beyond {{dist}} km"
+  },
+
   /*{
     source: "HELP_POPUP_TITLE",
     label: "HELP_POPUP_TITLE",
