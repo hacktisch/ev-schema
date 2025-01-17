@@ -26,16 +26,19 @@ module.exports = [
     {
         source: "gender",
         type: "select",
-        label: "Gender",
+        label: "Avatar",
         choices: [
-            { id: "human", name: "Human" },
-            { id: "female", name: "Female" },
-            { id: "male", name: "Male" },
+           // { id: "human", name: "Human" },
+           // { id: "female", name: "Female" },
+           // { id: "male", name: "Male" },
+            { id: "fun-emoji", name: "Square" },
             { id: "bottts", name: "Robot" },
-            { id: "gridy", name: "Genderfluid" }
+            { id: "miniavs", name: "Person" },
+            { id: "pixel-art", name: "Pixel" },
+            //{ id: "gridy", name: "Genderfluid" }
         ],
         props: {
-            defaultValue: "human"
+            defaultValue: "fun-emoji"
         },
         validate: ["required"],
         mode: "avatar",
