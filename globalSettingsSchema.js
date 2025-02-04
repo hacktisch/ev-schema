@@ -757,11 +757,19 @@ const localeFieldsSet = [
   },
   {
     source:"PRIVATE",
-    help:"Private"
+    help:"Private event"
   },
   {
     source:"COMPANY",
-    help:"Company"
+    help:"Corporate event"
+  },
+  {
+    source:"WEDDING",
+    help:"Wedding"
+  },
+  {
+    source:"OTHER",
+    help:"Other"
   }
 
 ].map(r => {
