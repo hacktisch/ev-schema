@@ -216,6 +216,7 @@ module.exports = [
     multiple: 'true',
     label: 'Occasion',
     root: 'occasion',
+    validate: ["required"],
     filter: { root: 'occasion' },
     reference: {
       resource: 'tree',
