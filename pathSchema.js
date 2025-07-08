@@ -4,7 +4,7 @@ module.exports = [
 		type: "text",
 		label: "Path",
 		validate: [
-			"required",
+			//"required",
 			{
 				type: "regex",
 				//pattern: '^[a-zA-Z0-9-]([/]?[a-zA-Z0-9-]+)*$|^https://(.+)$',
