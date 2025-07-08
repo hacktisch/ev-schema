@@ -29,12 +29,7 @@ const localeFieldsSet = [
     label: "CORONA_RULE",
     help: "Corona plan"
   },
-  {
-    source: "CORONA_EXPL",
-    label: "CORONA_EXPL",
-    help:
-      "Would you like to book entertainment, but are not sure whether your party date can continue? You can always postpone your booking with us for free if your party cannot go through due to government measures.\nWe offer this plan completely free of charge!"
-  },
+ 
   {
     source: "RECEIVE_PROPOSAL",
     label: "RECEIVE_PROPOSAL",
@@ -770,7 +765,260 @@ const localeFieldsSet = [
   {
     source:"OTHER",
     help:"Other"
-  }
+  },
+  /*
+  {
+    source: "IN_ALL_CATEGORIES",
+    help: "in all categories"
+  },
+  {
+    source: "WITHIN_CATEGORY",
+    help: "within category"
+  },
+  {
+    source: "ALL_RESULTS",
+    help: "All results"
+  },
+  {
+    source: "SPECIFY_OCCASION_AND_LOCATION",
+    help: "Specify occasion & location"
+  },
+  {
+    source: "PRICE",
+    help: "Price"
+  },
+  {
+    source: "CATEGORIES",
+    help: "Categories"
+  },
+  {
+    source: "CLEAR_ALL",
+    help: "Clear all"
+  },
+  {
+    source: "RESULT",
+    help: "result"
+  },
+  {
+    source: "RESULTS",
+    help: "results"
+  },
+  {
+    source: "IN",
+    help: "in"
+  },
+  {
+    source: "SELECTED_CATEGORY",
+    help: "selected category"
+  },
+  {
+    source: "CLEAR_ALL_FILTERS",
+    help: "Clear all filters"
+  },
+  {
+    source: "PRODUCT_NOT_AVAILABLE",
+    help: "Product not available"
+  },
+  {
+    source: "LOADING",
+    help: "Loading..."
+  },
+  {
+    source: "VIEW_ALL",
+    help: "View all"
+  },
+  {
+    source: "NO_RESULTS_FOUND",
+    help: "No results found"
+  },
+  {
+    source: "TRY_ADJUSTING_FILTERS",
+    help: "Try adjusting your filters or choose a different category."
+  },
+  {
+    source: "SET_PRICE",
+    help: "Set price"
+  },
+  {
+    source: "FILTERS",
+    help: "Filters"
+  },
+  {
+    source: "SHOW",
+    help: "Show"
+  },
+  {
+    source: "YOUR_OCCASION",
+    help: "Your occasion"
+  },
+  {
+    source: "WHAT_OCCASION_ORGANIZING",
+    help: "What kind of occasion are you organizing?"
+  },
+  {
+    source: "WHERE_EVENT_LOCATION",
+    help: "Where does your event take place?"
+  },
+  {
+    source: "LOCATION_HELPS_FIND_NEARBY",
+    help: "The location helps us find entertainment near you and limit travel costs."
+  },
+  {
+    source: "CANCEL",
+    help: "Cancel"
+  },
+  {
+    source: "CONFIRM",
+    help: "Confirm"
+  },
+  {
+    source: "FIND_PERFECT_ENTERTAINMENT",
+    help: "Find the perfect entertainment for your event"
+  },
+  {
+    source: "START_BY_SELECTING_OCCASION_LOCATION",
+    help: "Start by selecting your occasion and location for personalized recommendations"
+  },
+  {
+    source: "STEP_1_OCCASION",
+    help: "Step 1: Occasion"
+  },
+  {
+    source: "CHOOSE_EVENT_TYPE",
+    help: "Choose your event type"
+  },
+  {
+    source: "WHAT_EVENT_ORGANIZING",
+    help: "What kind of event are you organizing?"
+  },
+  {
+    source: "STEP_2_LOCATION",
+    help: "Step 2: Location"
+  },
+  {
+    source: "WHERE_TAKES_PLACE",
+    help: "Where does it take place?"
+  },
+  {
+    source: "WHERE_IS_EVENT",
+    help: "Where is your event?"
+  },
+  {
+    source: "SEARCH_CITY_POSTAL",
+    help: "Search city or postal code..."
+  },
+  {
+    source: "USE_CURRENT_LOCATION",
+    help: "Use current location"
+  },
+  {
+    source: "SEARCHING",
+    help: "Searching..."
+  },
+  {
+    source: "NO_LOCATIONS_FOUND",
+    help: "No locations found"
+  },
+  {
+    source: "START_HERE_PERSONALIZED_RESULTS",
+    help: "Start here to see personalized results"
+  },
+  {
+    source: "ONE_MORE_STEP_SELECT_LOCATION",
+    help: "One more step! Select your location"
+  },
+  {
+    source: "PERSONALIZED_MATCHES",
+    help: "Personalized matches"
+  },
+  {
+    source: "FIND_ENTERTAINMENT_PERFECT_FIT",
+    help: "Find entertainment that perfectly fits your event"
+  },
+  {
+    source: "AVAILABILITY_IN_REGION",
+    help: "Availability in your region"
+  },
+  {
+    source: "SEE_ARTISTS_CAN_TRAVEL",
+    help: "See only artists who can travel to your location"
+  },
+  {
+    source: "CUSTOM_PRICING",
+    help: "Custom pricing"
+  },
+  {
+    source: "GET_ACCURATE_PRICE_INDICATIONS",
+    help: "Get accurate price indications for your specific situation"
+  },
+  {
+    source: "SHOW_LESS",
+    help: "Show less"
+  },
+  {
+    source: "TO_LEFT",
+    help: "To left"
+  },
+  {
+    source: "TO_RIGHT",
+    help: "To right"
+  },
+  {
+    source: "CHOOSE_OCCASION",
+    help: "Choose occasion"
+  },
+  {
+    source: "ACTIVE_FILTERS",
+    help: "Active filters"
+  },
+  {
+    source: "MAIN_CATEGORY",
+    help: "Main category"
+  },
+  {
+    source: "ALL_CATEGORIES",
+    help: "All categories"
+  },
+  {
+    source: "RESET_FILTERS",
+    help: "Reset filters"
+  },
+  {
+    source: "CURRENT_LOCATION",
+    help: "Current location"
+  },
+  {
+    source: "CHOSEN_LOCATION",
+    help: "Chosen location"
+  },
+  {
+    source: "SEARCH_BY_PLACE_OR_CLICK_MAP",
+    help: "Search by place name or click on the map"
+  },
+  {
+    source: "SELECT_LOCATION",
+    help: "Select location"
+  },
+  {
+    source: "ENTER_PLACE_OR_POSTAL",
+    help: "Enter a place or postal code"
+  },
+  {
+    source: "CLEAR_LOCATION",
+    help: "Clear location"
+  },
+  {
+    source: "WHERE_IS_YOUR_EVENT",
+    help: "Where is your event?"
+  },
+  {
+    source: "SAVE",
+    help: "Save"
+  },
+  {
+    source: "ACTS_ABOVE_PRICE_OR_ON_REQUEST",
+    help: "{{count}} act{{plural}} above €{{max}} or {{hasPlural}} a price on request"
+  }*/
 
 ].map(r => {
   if (!r.label) {

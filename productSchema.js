@@ -176,6 +176,14 @@ module.exports = [
     type: 'text',
     help: 'An optional label to make some products stand out in the listings',
   },
+
+  {
+    tab: 'catalog',
+    source: 'promotion_label_color',
+    type: 'color',
+    defaultColor: '#D63939',
+    help: 'Color of the promotion label',
+  },
   {
     tab: 'catalog',
     source: 'isPartner',
